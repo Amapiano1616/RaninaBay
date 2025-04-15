@@ -1625,3 +1625,603 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.15-13.59.02:807][509]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 988.751465
 [2025.04.15-13.59.03:808][512]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.04.15-13.59.03:808][513]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 989.416199, Update Interval: 313.801086
+[2025.04.15-14.02.39:392][190]Cmd: r.ResetRenderTargetsExtent
+[2025.04.15-14.02.39:395][190]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2025.04.15-14.02.39:396][190]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.04.15-14.04.29:418][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1315.362549
+[2025.04.15-14.04.30:425][801]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.04.30:425][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1316.030029, Update Interval: 350.033264
+[2025.04.15-14.10.40:816][912]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1686.760864
+[2025.04.15-14.10.41:810][915]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.10.41:810][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1687.429077, Update Interval: 344.940948
+[2025.04.15-14.17.18:883][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2084.828125
+[2025.04.15-14.17.19:883][110]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.17.19:884][110]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2085.494629, Update Interval: 352.580353
+[2025.04.15-14.19.24:962][801]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.04.15-14.19.30:943][871]LogSlate: Took 0.003376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.15-14.19.33:460][893]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BendToolWall.BendToolWall
+[2025.04.15-14.19.33:705][893]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.04.15-14.19.34:045][893]LogStreaming: Display: FlushAsyncLoading(417): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.19.34:455][893]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2025.04.15-14.19.50:372][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.15-14.19.50:729][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BendToolWall] ([1] browsable assets)...
+[2025.04.15-14.19.50:730][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/BendToolWall]
+[2025.04.15-14.19.50:730][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BendToolWall" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/BendToolWall.uasset" SILENT=true
+[2025.04.15-14.19.50:754][  3]LogSavePackage: Moving output files for package: /Game/BendToolWall
+[2025.04.15-14.19.50:757][  3]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/BendToolWall0E12F1864B5409F9E8151E9DBA8E3EF3.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/BendToolWall.uasset'
+[2025.04.15-14.19.50:852][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 480.403 ms
+[2025.04.15-14.19.51:138][  3]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.15-14.19.51:138][  3]LogContentValidation: Enabled validators:
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.15-14.19.51:139][  3]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.15-14.19.51:150][  3]AssetCheck: /Game/BendToolWall Validating asset
+[2025.04.15-14.19.52:153][ 13]LogSlate: Window 'BendToolWall' being destroyed
+[2025.04.15-14.19.52:303][ 13]LogSlate: Window 'BendToolWall' being destroyed
+[2025.04.15-14.19.52:571][ 13]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.15-14.19.52:571][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.19.52:823][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2025.04.15-14.19.54:286][ 32]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.15-14.19.54:328][ 32]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.15-14.19.54:330][ 32]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.15-14.19.54:355][ 32]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 27.017 ms (total: 102.717 ms)
+[2025.04.15-14.19.54:357][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.15-14.19.54:358][ 32]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.19.54:450][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090974s)
+[2025.04.15-14.19.54:450][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.091242s)
+[2025.04.15-14.19.54:536][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2025.04.15-14.19.54:539][ 32]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.15-14.19.54:547][ 32]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.15-14.19.54:548][ 32]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.15-14.19.54:548][ 32]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.15-14.19.54:548][ 32]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.15-14.19.54:579][ 32]LogWorldPartition: Display: WorldPartition initialize took 30.927 ms (total: 649.072 ms)
+[2025.04.15-14.19.54:579][ 32]LogPlayLevel: PIE: World Init took: (0.040242s)
+[2025.04.15-14.19.54:585][ 32]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.04.15-14.19.54:585][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.15-14.19.54:585][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.15-14.19.54:585][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.15-14.19.54:586][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.15-14.19.54:586][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.15-14.19.54:586][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.15-14.19.54:586][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.15-14.19.54:586][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.15-14.19.54:586][ 32]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.15-14.19.54:586][ 32]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.15-14.19.54:586][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.15-14.19.54:605][ 32]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.15-14.19.55:048][ 32]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.15-14.19.55:049][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.15-14.19.55:050][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.15-14.19.55:050][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.15-14.19.55:051][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.04.15-14.19.55:052][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.04.15-14.19.55:078][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.04.15-14.19.55:079][ 32]LogInit: FAudioDevice initialized with ID 5.
+[2025.04.15-14.19.55:079][ 32]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2025.04.15-14.19.55:079][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.04.15-14.19.55:079][ 32]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.15-14.19.55:100][ 32]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.15-14.19.55:156][ 32]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.04.15-10.19.55
+[2025.04.15-14.19.55:158][ 32]LogWorld: Bringing up level for play took: 0.055369
+[2025.04.15-14.19.55:182][ 32]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.04.15-14.19.55:223][ 32]PIE: Server logged in
+[2025.04.15-14.19.55:228][ 32]PIE: Play in editor total start time 0.9 seconds.
+[2025.04.15-14.20.04:340][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.20.04:341][153]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.20.04:341][153]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.15-14.20.04:350][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.20.04:350][153]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.15-14.20.04:450][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.15-14.20.04:458][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.20.04:543][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.20.04:546][153]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.15-14.20.04:546][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.15-14.20.04:567][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.15-14.20.04:615][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2025.04.15-14.20.05:228][154]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.04.15-14.20.13:847][291]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.15-14.20.13:891][291]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.15-14.20.13:891][291]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.15-14.20.13:918][291]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 26.046 ms (total: 128.764 ms)
+[2025.04.15-14.20.13:918][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.15-14.20.13:919][291]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.20.14:008][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088678s)
+[2025.04.15-14.20.14:009][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.088923s)
+[2025.04.15-14.20.14:084][291]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2025.04.15-14.20.14:090][291]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.15-14.20.14:098][291]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.15-14.20.14:098][291]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.15-14.20.14:098][291]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.15-14.20.14:098][291]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.15-14.20.14:129][291]LogWorldPartition: Display: WorldPartition initialize took 31.031 ms (total: 680.104 ms)
+[2025.04.15-14.20.14:129][291]LogPlayLevel: PIE: World Init took: (0.039945s)
+[2025.04.15-14.20.14:135][291]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.15-14.20.14:135][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.15-14.20.14:136][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.15-14.20.14:136][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.15-14.20.14:136][291]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.15-14.20.14:136][291]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.15-14.20.14:136][291]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.15-14.20.14:157][291]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.15-14.20.14:585][291]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.15-14.20.14:588][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.15-14.20.14:588][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.15-14.20.14:588][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.15-14.20.14:590][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.04.15-14.20.14:590][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.04.15-14.20.14:615][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.04.15-14.20.14:615][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.04.15-14.20.14:615][291]LogInit: FAudioDevice initialized with ID 6.
+[2025.04.15-14.20.14:616][291]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2025.04.15-14.20.14:616][291]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.15-14.20.14:633][291]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.15-14.20.14:686][291]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.04.15-10.20.14
+[2025.04.15-14.20.14:688][291]LogWorld: Bringing up level for play took: 0.053255
+[2025.04.15-14.20.14:710][291]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.04.15-14.20.14:746][291]PIE: Server logged in
+[2025.04.15-14.20.14:751][291]PIE: Play in editor total start time 0.861 seconds.
+[2025.04.15-14.20.29:863][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.20.29:863][531]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.20.29:864][531]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.15-14.20.29:874][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.20.29:874][531]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.15-14.20.29:946][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.15-14.20.29:956][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.20.30:053][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.20.30:056][531]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.15-14.20.30:056][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.15-14.20.30:070][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.15-14.20.30:133][531]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2025.04.15-14.20.30:746][532]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.04.15-14.20.48:834][807]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.15-14.20.48:876][807]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.15-14.20.48:876][807]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.15-14.20.48:900][807]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 22.990 ms (total: 151.754 ms)
+[2025.04.15-14.20.48:900][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.15-14.20.48:901][807]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.20.48:992][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091746s)
+[2025.04.15-14.20.48:992][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.091986s)
+[2025.04.15-14.20.49:072][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2025.04.15-14.20.49:077][807]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.15-14.20.49:085][807]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.15-14.20.49:086][807]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.15-14.20.49:086][807]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.15-14.20.49:086][807]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.15-14.20.49:116][807]LogWorldPartition: Display: WorldPartition initialize took 30.480 ms (total: 710.584 ms)
+[2025.04.15-14.20.49:116][807]LogPlayLevel: PIE: World Init took: (0.039136s)
+[2025.04.15-14.20.49:121][807]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.04.15-14.20.49:121][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.15-14.20.49:121][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.15-14.20.49:121][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.15-14.20.49:123][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.15-14.20.49:123][807]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.15-14.20.49:123][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.15-14.20.49:123][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.15-14.20.49:123][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.15-14.20.49:123][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.15-14.20.49:123][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.15-14.20.49:123][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.15-14.20.49:142][807]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.15-14.20.49:582][807]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.15-14.20.49:586][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.15-14.20.49:586][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.15-14.20.49:586][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.15-14.20.49:588][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.04.15-14.20.49:589][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.04.15-14.20.49:608][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.04.15-14.20.49:608][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.04.15-14.20.49:608][807]LogInit: FAudioDevice initialized with ID 7.
+[2025.04.15-14.20.49:608][807]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.04.15-14.20.49:608][807]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.15-14.20.49:626][807]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.15-14.20.49:682][807]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.04.15-10.20.49
+[2025.04.15-14.20.49:685][807]LogWorld: Bringing up level for play took: 0.056347
+[2025.04.15-14.20.49:703][807]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.04.15-14.20.49:739][807]PIE: Server logged in
+[2025.04.15-14.20.49:745][807]PIE: Play in editor total start time 0.869 seconds.
+[2025.04.15-14.21.20:815][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.21.20:815][330]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.21.20:817][330]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.15-14.21.20:826][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.21.20:827][330]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.15-14.21.20:891][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.15-14.21.20:901][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.21.20:986][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.21.20:989][330]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.15-14.21.20:989][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.15-14.21.21:009][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.15-14.21.21:074][330]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2025.04.15-14.21.21:714][331]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.04.15-14.21.51:188][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2025.04.15-14.21.51:210][498]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/PW/X4LRZYAGJT9U4NGHHW6ZDD_Auto2
+[2025.04.15-14.21.51:210][498]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/X4LRZYAGJT9U4NGHHW6ZDD_Auto2CE5CCD4040DAD2601930E49BD9A454EF.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/PW/X4LRZYAGJT9U4NGHHW6ZDD_Auto2.uasset'
+[2025.04.15-14.21.51:229][498]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.126
+[2025.04.15-14.21.51:229][498]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.126
+[2025.04.15-14.22.40:042][761]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.15-14.22.40:098][761]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.15-14.22.40:167][762]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.15-14.22.43:140][811]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2025.04.15-14.22.43:142][811]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.15-14.22.55:671][991]LogContentBrowser: Attempting asset rename: NewFolder -> Imports
+[2025.04.15-14.23.00:348][ 42]LogStreaming: Display: FlushAsyncLoading(422): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.23.24:353][293]LogMetaData: Removing '/Game/Imports/BendToolWall.BendToolWall' ref from Metadata '/Game/BendToolWall.PackageMetaData'
+[2025.04.15-14.23.24:443][293]LogMetaData: Removing '/Game/Imports/MainPath1.MainPath1' ref from Metadata '/Game/MainPath1.PackageMetaData'
+[2025.04.15-14.23.24:533][293]LogMetaData: Removing '/Game/Imports/MashTest2.MashTest2' ref from Metadata '/Game/MashTest2.PackageMetaData'
+[2025.04.15-14.23.24:623][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.15-14.23.24:634][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/BendToolWall] ([1] browsable assets)...
+[2025.04.15-14.23.24:634][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/BendToolWall]
+[2025.04.15-14.23.24:634][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/BendToolWall" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/BendToolWall.uasset" SILENT=true
+[2025.04.15-14.23.24:652][293]LogSavePackage: Moving output files for package: /Game/Imports/BendToolWall
+[2025.04.15-14.23.24:652][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/BendToolWall45E6B7C94DB1E2C6C20343B34EC84A63.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/BendToolWall.uasset'
+[2025.04.15-14.23.24:660][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BendToolWall] ([1] browsable assets)...
+[2025.04.15-14.23.24:660][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/BendToolWall]
+[2025.04.15-14.23.24:660][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BendToolWall" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/BendToolWall.uasset" SILENT=true
+[2025.04.15-14.23.24:665][293]LogSavePackage: Moving output files for package: /Game/BendToolWall
+[2025.04.15-14.23.24:668][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/BendToolWall68B03DD94AEFEF35FF5E58BFCDB5325E.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/BendToolWall.uasset'
+[2025.04.15-14.23.24:677][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/MainPath1] ([1] browsable assets)...
+[2025.04.15-14.23.24:678][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/MainPath1]
+[2025.04.15-14.23.24:678][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/MainPath1" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/MainPath1.uasset" SILENT=true
+[2025.04.15-14.23.24:759][293]LogSavePackage: Moving output files for package: /Game/Imports/MainPath1
+[2025.04.15-14.23.24:760][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/MainPath1F74DF3B94CE144253FEC40841B222C85.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/MainPath1.uasset'
+[2025.04.15-14.23.24:769][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainPath1] ([1] browsable assets)...
+[2025.04.15-14.23.24:769][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainPath1]
+[2025.04.15-14.23.24:769][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainPath1" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/MainPath1.uasset" SILENT=true
+[2025.04.15-14.23.24:773][293]LogSavePackage: Moving output files for package: /Game/MainPath1
+[2025.04.15-14.23.24:777][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/MainPath144D6EDD546A8201A6C51B3910AABBBAD.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/MainPath1.uasset'
+[2025.04.15-14.23.24:784][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/MashTest2] ([1] browsable assets)...
+[2025.04.15-14.23.24:785][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/MashTest2]
+[2025.04.15-14.23.24:785][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/MashTest2" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/MashTest2.uasset" SILENT=true
+[2025.04.15-14.23.25:317][293]LogSavePackage: Moving output files for package: /Game/Imports/MashTest2
+[2025.04.15-14.23.25:317][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/MashTest23CDA69C74279B91FE37339B5B9C1CE91.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/MashTest2.uasset'
+[2025.04.15-14.23.25:325][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/standardSurface1] ([1] browsable assets)...
+[2025.04.15-14.23.25:326][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/standardSurface1]
+[2025.04.15-14.23.25:326][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/standardSurface1" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/standardSurface1.uasset" SILENT=true
+[2025.04.15-14.23.25:334][293]LogSavePackage: Moving output files for package: /Game/Imports/standardSurface1
+[2025.04.15-14.23.25:336][293]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/standardSurface12A033D4247BFE70502548CAAAD3E887F.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/Imports/standardSurface1.uasset'
+[2025.04.15-14.23.25:341][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 718.651 ms (total: 1.19 sec)
+[2025.04.15-14.23.25:794][293]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2025.04.15-14.23.25:887][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2025.04.15-14.23.25:967][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.04.15-14.23.26:208][293]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.15-14.23.26:209][293]LogContentValidation: Display: Starting to validate 6 assets
+[2025.04.15-14.23.26:209][293]LogContentValidation: Enabled validators:
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.15-14.23.26:209][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.15-14.23.26:210][293]AssetCheck: /Game/Imports/BendToolWall Validating asset
+[2025.04.15-14.23.26:210][293]AssetCheck: /Game/BendToolWall Validating asset
+[2025.04.15-14.23.26:236][293]AssetCheck: /Game/Imports/MainPath1 Validating asset
+[2025.04.15-14.23.26:237][293]AssetCheck: /Game/MainPath1 Validating asset
+[2025.04.15-14.23.26:627][293]AssetCheck: /Game/Imports/MashTest2 Validating asset
+[2025.04.15-14.23.26:628][293]AssetCheck: /Game/Imports/standardSurface1 Validating asset
+[2025.04.15-14.23.56:280][478]LogStreaming: Display: FlushAsyncLoading(423): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.24.13:928][506]LogStreaming: Display: FlushAsyncLoading(428): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.24.13:970][506]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/amais/Documents/maya/projects/default/scenes/MainPath2.fbx]
+[2025.04.15-14.24.16:698][506]LogSlate: Window 'Import Content' being destroyed
+[2025.04.15-14.24.17:042][506]LogInterchangeEngine: [Pending] Importing
+[2025.04.15-14.24.17:206][506]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2503.155762
+[2025.04.15-14.24.18:242][509]LogStreaming: Display: FlushAsyncLoading(433): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.24.18:244][509]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.24.18:245][509]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2504.150391, Update Interval: 326.714081
+[2025.04.15-14.24.18:564][512]LogStaticMesh: Display: Building static mesh MainPath2 (Required Memory Estimate: 33.727835 MB)...
+[2025.04.15-14.24.19:290][524]LogStaticMesh: Adjacency [0.02s], tris: 22040, UVs 1
+[2025.04.15-14.24.19:417][526]LogStaticMesh: Clustering [0.13s]. Ratio: 1.011561
+[2025.04.15-14.24.19:446][527]LogStaticMesh: Leaves [0.03s]
+[2025.04.15-14.24.23:483][583]LogStaticMesh: Reduce [4.04s]
+[2025.04.15-14.24.23:495][583]LogStaticMesh: Fallback [0.01s], num tris: 252
+[2025.04.15-14.24.23:538][584]LogStaticMesh: ConstrainClusters:
+[2025.04.15-14.24.23:539][584]LogStaticMesh:   Input: 359 Clusters, 45194 Triangles and 37217 Vertices
+[2025.04.15-14.24.23:539][584]LogStaticMesh:   Output without splits: 359 Clusters, 45194 Triangles and 37482 Vertices
+[2025.04.15-14.24.23:539][584]LogStaticMesh:   Output with splits: 359 Clusters, 45194 Triangles and 37482 Vertices
+[2025.04.15-14.24.23:548][584]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 359, Slow Path Clusters: 0, 1 Material: 359, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.04.15-14.24.23:594][585]LogStaticMesh: WritePages:
+[2025.04.15-14.24.23:595][585]LogStaticMesh:   Root: GPU size: 32220 bytes. 1 Pages. 32220.000 bytes per page (98.328% utilization).
+[2025.04.15-14.24.23:595][585]LogStaticMesh:   Streaming: GPU size: 415932 bytes. 4 Pages (4 with relative encoding). 103983.000 bytes per page (79.333% utilization).
+[2025.04.15-14.24.23:595][585]LogStaticMesh:   Page data disk size: 349068 bytes. Fixup data size: 1872 bytes.
+[2025.04.15-14.24.23:595][585]LogStaticMesh:   Total GPU size: 448152 bytes, Total disk size: 350940 bytes.
+[2025.04.15-14.24.23:595][585]LogStaticMesh: Encode [0.10s]
+[2025.04.15-14.24.23:595][585]LogStaticMesh: Nanite build [4.33s]
+
+[2025.04.15-14.24.23:638][585]LogStaticMesh: Built static mesh [5.08s] /Game/Imports/MainPath2.MainPath2
+[2025.04.15-14.24.25:063][600]LogInterchangeEngine: Display: Interchange import completed [C:/Users/amais/Docum...jects/default/scenes/MainPath2.fbx]
+[2025.04.15-14.24.25:063][600]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.15-14.24.25:064][600]LogInterchangeEngine: [Success] Import Done
+[2025.04.15-14.24.44:674][864]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath2.MainPath2
+[2025.04.15-14.24.44:676][864]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath2.MainPath2
+[2025.04.15-14.24.44:679][864]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/MainPath2.MainPath2 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2025.04.15-14.24.46:040][874]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2025.04.15-14.24.46:051][874]LogEditorActor: Deleted 0 Actors (0.108 secs)
+[2025.04.15-14.24.46:126][874]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath2.MainPath2
+[2025.04.15-14.24.46:126][874]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath2.MainPath2
+[2025.04.15-14.24.46:142][874]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/MainPath2.MainPath2 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_6CF6DADDA085175F02_1374290864
+[2025.04.15-14.24.51:174][939]LogPSOHitching: Encountered 100 PSO creation hitches so far (42 graphics, 58 compute). 0 of them were precached.
+[2025.04.15-14.25.12:810][263]Cmd: DELETE
+[2025.04.15-14.25.12:811][263]Cmd: ACTOR DELETE
+[2025.04.15-14.25.12:841][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.15-14.25.12:927][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.04.15-14.25.12:936][263]LogEditorActor: Deleted 1 Actors (0.115 secs)
+[2025.04.15-14.27.25:856][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.15-14.27.25:904][289]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.15-14.27.25:905][289]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.15-14.27.25:931][289]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 26.682 ms (total: 178.437 ms)
+[2025.04.15-14.27.25:932][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.15-14.27.25:934][289]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.27.26:035][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100926s)
+[2025.04.15-14.27.26:035][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.101203s)
+[2025.04.15-14.27.26:114][289]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2025.04.15-14.27.26:127][289]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.15-14.27.26:136][289]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.15-14.27.26:138][289]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.15-14.27.26:138][289]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.15-14.27.26:138][289]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.15-14.27.26:171][289]LogWorldPartition: Display: WorldPartition initialize took 35.136 ms (total: 745.721 ms)
+[2025.04.15-14.27.26:173][289]LogPlayLevel: PIE: World Init took: (0.046120s)
+[2025.04.15-14.27.26:178][289]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.04.15-14.27.26:178][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.15-14.27.26:178][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.15-14.27.26:178][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.15-14.27.26:178][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.15-14.27.26:179][289]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.15-14.27.26:179][289]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.15-14.27.26:179][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.15-14.27.26:179][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.15-14.27.26:179][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.15-14.27.26:179][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.15-14.27.26:179][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.15-14.27.26:195][289]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.15-14.27.26:666][289]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.15-14.27.26:671][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.15-14.27.26:671][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.15-14.27.26:671][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.15-14.27.26:676][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.04.15-14.27.26:676][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.04.15-14.27.26:699][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.04.15-14.27.26:699][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.04.15-14.27.26:699][289]LogInit: FAudioDevice initialized with ID 8.
+[2025.04.15-14.27.26:700][289]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2025.04.15-14.27.26:700][289]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.04.15-14.27.26:721][289]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.15-14.27.26:787][289]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.04.15-10.27.26
+[2025.04.15-14.27.26:789][289]LogWorld: Bringing up level for play took: 0.064290
+[2025.04.15-14.27.26:811][289]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.04.15-14.27.26:858][289]PIE: Server logged in
+[2025.04.15-14.27.26:864][289]PIE: Play in editor total start time 0.96 seconds.
+[2025.04.15-14.27.51:488][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.27.51:489][701]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.15-14.27.51:489][701]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.15-14.27.51:500][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.27.51:500][701]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.15-14.27.51:613][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.15-14.27.51:622][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.15-14.27.51:706][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.15-14.27.51:710][701]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.04.15-14.27.51:711][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.04.15-14.27.51:734][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.04.15-14.27.51:814][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2025.04.15-14.27.52:501][702]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.04.15-14.28.07:164][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath1.MainPath1
+[2025.04.15-14.28.07:164][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath1.MainPath1
+[2025.04.15-14.28.07:166][898]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/MainPath1.MainPath1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2025.04.15-14.28.08:688][908]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2025.04.15-14.28.08:694][908]LogEditorActor: Deleted 0 Actors (0.089 secs)
+[2025.04.15-14.28.08:767][908]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath1.MainPath1
+[2025.04.15-14.28.08:767][908]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/MainPath1.MainPath1
+[2025.04.15-14.28.08:780][908]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/MainPath1.MainPath1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_6CF6DADDA085175F02_1576931865
+[2025.04.15-14.29.26:388][ 56]Cmd: DELETE
+[2025.04.15-14.29.26:388][ 56]Cmd: ACTOR DELETE
+[2025.04.15-14.29.26:401][ 56]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.15-14.29.26:490][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.04.15-14.29.26:501][ 56]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2025.04.15-14.30.32:503][442]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2878.455811
+[2025.04.15-14.30.33:506][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.30.33:506][444]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2879.122314, Update Interval: 311.860107
+[2025.04.15-14.32.17:595][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.15-14.32.17:598][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/7HB28J38QL8N7L9Z6TNRUS_Auto3
+[2025.04.15-14.32.17:598][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/7HB28J38QL8N7L9Z6TNRUS_Auto3C35EB7AC4E0551BD4E4CB4B0B493CF21.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/7HB28J38QL8N7L9Z6TNRUS_Auto3.uasset'
+[2025.04.15-14.32.17:599][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/04/VUUWIZ2NSC3GMKI5JFV7PO_Auto3
+[2025.04.15-14.32.17:600][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/VUUWIZ2NSC3GMKI5JFV7PO_Auto394840A264E38683BE263718588737DC1.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/04/VUUWIZ2NSC3GMKI5JFV7PO_Auto3.uasset'
+[2025.04.15-14.32.17:615][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1Z/6G2MMLXVED129MOSZJV38Q_Auto3
+[2025.04.15-14.32.17:615][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/6G2MMLXVED129MOSZJV38Q_Auto3799C955A4B4782C1CF41DE816DE9E08C.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1Z/6G2MMLXVED129MOSZJV38Q_Auto3.uasset'
+[2025.04.15-14.32.17:631][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/ZXDGZL3MP7FOPQGV52X563_Auto3
+[2025.04.15-14.32.17:631][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/ZXDGZL3MP7FOPQGV52X563_Auto3B5F0C4964F11074FF969C6BEBCAA8E77.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/ZXDGZL3MP7FOPQGV52X563_Auto3.uasset'
+[2025.04.15-14.32.17:648][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0U/SXZZSPFDWJSZDC2UYZ0XOQ_Auto3
+[2025.04.15-14.32.17:648][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/SXZZSPFDWJSZDC2UYZ0XOQ_Auto3556E0C1F4FCED96D4F009783D8BFBE6A.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0U/SXZZSPFDWJSZDC2UYZ0XOQ_Auto3.uasset'
+[2025.04.15-14.32.17:662][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J2/SUCJ8SUM2FSHXP6JR9NE5Y_Auto3
+[2025.04.15-14.32.17:662][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/SUCJ8SUM2FSHXP6JR9NE5Y_Auto37ABFBAD9454862CD6F0BBE9528E4E173.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J2/SUCJ8SUM2FSHXP6JR9NE5Y_Auto3.uasset'
+[2025.04.15-14.32.17:676][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GU/GYHG7HBK0368KHFN76QUJ3_Auto3
+[2025.04.15-14.32.17:677][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/GYHG7HBK0368KHFN76QUJ3_Auto395189FAB4F0E7F907D0E1198108A4409.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GU/GYHG7HBK0368KHFN76QUJ3_Auto3.uasset'
+[2025.04.15-14.32.17:691][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/NT/84Y2F4ZA1FBLHSVQE5KSFL_Auto3
+[2025.04.15-14.32.17:691][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/84Y2F4ZA1FBLHSVQE5KSFL_Auto36A687A4744B124BBC7C94BBF3034ECA3.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/NT/84Y2F4ZA1FBLHSVQE5KSFL_Auto3.uasset'
+[2025.04.15-14.32.17:694][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YM/B53O9UAF45LTZ2LUBW2VQB_Auto3
+[2025.04.15-14.32.17:694][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/B53O9UAF45LTZ2LUBW2VQB_Auto3D2CFC67B41E07F67DEE0CCA56CD37F50.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YM/B53O9UAF45LTZ2LUBW2VQB_Auto3.uasset'
+[2025.04.15-14.32.17:709][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8S/IEWNHXAK6DT2N3O83MHH96_Auto3
+[2025.04.15-14.32.17:709][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/IEWNHXAK6DT2N3O83MHH96_Auto3D573A67B4D071EF1DD1BD2BB4814CBE7.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8S/IEWNHXAK6DT2N3O83MHH96_Auto3.uasset'
+[2025.04.15-14.32.17:719][756]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.138
+[2025.04.15-14.32.17:719][756]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.138
+[2025.04.15-14.32.17:721][756]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/MainPath2] ([1] browsable assets)...
+[2025.04.15-14.32.18:053][756]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imports/MainPath2.MainPath2]
+[2025.04.15-14.32.18:053][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/MainPath2]
+[2025.04.15-14.32.18:115][756]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/MainPath2_Auto3
+[2025.04.15-14.32.18:115][756]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/MainPath2_Auto3A1BE8EFE4EDE270146EE449A731A05BC.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/MainPath2_Auto3.uasset'
+[2025.04.15-14.32.18:124][756]LogFileHelpers: Auto-saving content packages took 0.404
+[2025.04.15-14.34.07:236][186]LogStreaming: Display: FlushAsyncLoading(434): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.34.07:271][186]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/amais/Documents/maya/projects/default/scenes/AlternatePath.fbx]
+[2025.04.15-14.34.09:412][186]LogSlate: Window 'Import Content' being destroyed
+[2025.04.15-14.34.09:701][186]LogInterchangeEngine: [Pending] Importing
+[2025.04.15-14.34.10:549][189]LogStreaming: Display: FlushAsyncLoading(435): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.34.10:761][192]LogStaticMesh: Display: Building static mesh AlternatePath (Required Memory Estimate: 12.924728 MB)...
+[2025.04.15-14.34.11:056][197]LogStaticMesh: Adjacency [0.01s], tris: 8420, UVs 1
+[2025.04.15-14.34.11:102][198]LogStaticMesh: Clustering [0.04s]. Ratio: 1.015152
+[2025.04.15-14.34.11:112][198]LogStaticMesh: Leaves [0.01s]
+[2025.04.15-14.34.13:538][238]LogStaticMesh: Reduce [2.43s]
+[2025.04.15-14.34.13:600][239]LogStaticMesh: Fallback [0.06s], num tris: 256
+[2025.04.15-14.34.13:619][239]LogStaticMesh: ConstrainClusters:
+[2025.04.15-14.34.13:619][239]LogStaticMesh:   Input: 139 Clusters, 17492 Triangles and 15766 Vertices
+[2025.04.15-14.34.13:619][239]LogStaticMesh:   Output without splits: 139 Clusters, 17492 Triangles and 15785 Vertices
+[2025.04.15-14.34.13:620][239]LogStaticMesh:   Output with splits: 139 Clusters, 17492 Triangles and 15785 Vertices
+[2025.04.15-14.34.13:622][239]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 139, Slow Path Clusters: 0, 1 Material: 139, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.04.15-14.34.13:661][240]LogStaticMesh: WritePages:
+[2025.04.15-14.34.13:661][240]LogStaticMesh:   Root: GPU size: 32612 bytes. 1 Pages. 32612.000 bytes per page (99.524% utilization).
+[2025.04.15-14.34.13:661][240]LogStaticMesh:   Streaming: GPU size: 157836 bytes. 2 Pages (2 with relative encoding). 78918.000 bytes per page (60.210% utilization).
+[2025.04.15-14.34.13:662][240]LogStaticMesh:   Page data disk size: 156252 bytes. Fixup data size: 512 bytes.
+[2025.04.15-14.34.13:662][240]LogStaticMesh:   Total GPU size: 190448 bytes, Total disk size: 156764 bytes.
+[2025.04.15-14.34.13:662][240]LogStaticMesh: Encode [0.06s]
+[2025.04.15-14.34.13:662][240]LogStaticMesh: Nanite build [2.61s]
+
+[2025.04.15-14.34.13:691][240]LogStaticMesh: Built static mesh [2.94s] /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.34.14:640][244]LogInterchangeEngine: Display: Interchange import completed [C:/Users/amais/Docum...jects/default/scenes/AlternatePath.fbx]
+[2025.04.15-14.34.14:641][244]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.15-14.34.14:641][244]LogInterchangeEngine: [Success] Import Done
+[2025.04.15-14.34.23:288][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.34.23:288][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.34.23:291][357]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/AlternatePath.AlternatePath as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2
+[2025.04.15-14.34.24:123][362]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2025.04.15-14.34.24:129][362]LogEditorActor: Deleted 0 Actors (0.093 secs)
+[2025.04.15-14.34.24:198][362]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.34.24:198][362]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.34.24:211][362]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/AlternatePath.AlternatePath as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_6CF6DADDA085175F02_1952362866
+[2025.04.15-14.35.29:023][872]Cmd: DELETE
+[2025.04.15-14.35.29:023][872]Cmd: ACTOR DELETE
+[2025.04.15-14.35.29:044][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.15-14.35.29:134][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.04.15-14.35.29:143][872]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2025.04.15-14.35.35:200][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.04.15-14.35.37:190][934]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.15-14.35.37:358][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2025.04.15-14.35.37:447][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2025.04.15-14.35.37:531][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.04.15-14.35.47:111][948]LogStreaming: Display: FlushAsyncLoading(436): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.35.47:162][948]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/amais/Documents/maya/projects/default/scenes/AlternatePath.fbx]
+[2025.04.15-14.35.49:025][948]LogSlate: Window 'Import Content' being destroyed
+[2025.04.15-14.35.49:071][948]LogInterchangeEngine: [Pending] Importing
+[2025.04.15-14.35.49:386][951]LogStreaming: Display: FlushAsyncLoading(437): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.15-14.35.49:511][953]LogStaticMesh: Display: Building static mesh AlternatePath (Required Memory Estimate: 12.924728 MB)...
+[2025.04.15-14.35.49:603][955]LogStaticMesh: Adjacency [0.00s], tris: 8420, UVs 1
+[2025.04.15-14.35.49:612][955]LogStaticMesh: Clustering [0.01s]. Ratio: 1.015152
+[2025.04.15-14.35.49:616][956]LogStaticMesh: Leaves [0.00s]
+[2025.04.15-14.35.51:871][984]LogStaticMesh: Reduce [2.25s]
+[2025.04.15-14.35.51:931][984]LogStaticMesh: Fallback [0.06s], num tris: 256
+[2025.04.15-14.35.51:946][984]LogStaticMesh: ConstrainClusters:
+[2025.04.15-14.35.51:947][984]LogStaticMesh:   Input: 138 Clusters, 17366 Triangles and 15630 Vertices
+[2025.04.15-14.35.51:947][984]LogStaticMesh:   Output without splits: 138 Clusters, 17366 Triangles and 15643 Vertices
+[2025.04.15-14.35.51:948][984]LogStaticMesh:   Output with splits: 138 Clusters, 17366 Triangles and 15643 Vertices
+[2025.04.15-14.35.51:950][984]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 138, Slow Path Clusters: 0, 1 Material: 138, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.04.15-14.35.51:987][985]LogStaticMesh: WritePages:
+[2025.04.15-14.35.51:987][985]LogStaticMesh:   Root: GPU size: 32540 bytes. 1 Pages. 32540.000 bytes per page (99.304% utilization).
+[2025.04.15-14.35.51:988][985]LogStaticMesh:   Streaming: GPU size: 156128 bytes. 2 Pages (2 with relative encoding). 78064.000 bytes per page (59.558% utilization).
+[2025.04.15-14.35.51:988][985]LogStaticMesh:   Page data disk size: 154640 bytes. Fixup data size: 512 bytes.
+[2025.04.15-14.35.51:988][985]LogStaticMesh:   Total GPU size: 188668 bytes, Total disk size: 155152 bytes.
+[2025.04.15-14.35.51:988][985]LogStaticMesh: Encode [0.06s]
+[2025.04.15-14.35.51:988][985]LogStaticMesh: Nanite build [2.39s]
+
+[2025.04.15-14.35.52:017][985]LogStaticMesh: Built static mesh [2.51s] /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.35.52:722][989]LogInterchangeEngine: Display: Interchange import completed [C:/Users/amais/Docum...jects/default/scenes/AlternatePath.fbx]
+[2025.04.15-14.35.52:723][989]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.15-14.35.52:723][989]LogInterchangeEngine: [Success] Import Done
+[2025.04.15-14.35.55:361][ 17]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.35.55:361][ 17]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.35.55:364][ 17]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/AlternatePath.AlternatePath as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2025.04.15-14.35.56:083][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2025.04.15-14.35.56:091][ 18]LogEditorActor: Deleted 0 Actors (0.085 secs)
+[2025.04.15-14.35.56:163][ 18]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.35.56:164][ 18]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/AlternatePath.AlternatePath
+[2025.04.15-14.35.56:179][ 18]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/AlternatePath.AlternatePath as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_6CF6DADDA085175F02_2044327867
+[2025.04.15-14.36.28:359][491]Cmd: TRANSACTION UNDO
+[2025.04.15-14.36.28:359][491]LogEditorTransaction: Undo Move Elements
+[2025.04.15-14.36.30:637][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3236.592285
+[2025.04.15-14.36.30:837][520]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.15-14.36.30:837][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3236.734863, Update Interval: 350.665009
+[2025.04.15-14.38.24:061][120]Cmd: TRANSACTION UNDO
+[2025.04.15-14.38.24:061][120]LogEditorTransaction: Undo Move Elements
+[2025.04.15-14.39.30:210][ 89]Cmd: r.ResetRenderTargetsExtent
+[2025.04.15-14.39.30:210][ 89]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2025.04.15-14.39.30:210][ 89]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.04.15-14.39.44:560][272]LogCore: Display: Tracing Screenshot "HighresScreenshot_2025.04.15-10.39.43" taken with size: 2032 x 1321
+[2025.04.15-14.39.47:561][273]LogClient: High resolution screenshot saved as C:/Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Screenshots/WindowsEditor/HighresScreenshot_2025.04.15-10.39.43.png
+[2025.04.15-14.42.18:836][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.15-14.42.18:841][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/02/5FQQCQRFS2F1YJIY1VT4V9_Auto4
+[2025.04.15-14.42.18:841][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/5FQQCQRFS2F1YJIY1VT4V9_Auto47A2641F34E9C101E229D3FB48C09BAF5.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/02/5FQQCQRFS2F1YJIY1VT4V9_Auto4.uasset'
+[2025.04.15-14.42.18:844][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/L6/3YJEQRQPHV032W1IFXMEJX_Auto4
+[2025.04.15-14.42.18:844][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/3YJEQRQPHV032W1IFXMEJX_Auto448FAD0EA44164DAFA82A18A345AD7907.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/L6/3YJEQRQPHV032W1IFXMEJX_Auto4.uasset'
+[2025.04.15-14.42.18:846][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/7HB28J38QL8N7L9Z6TNRUS_Auto4
+[2025.04.15-14.42.18:846][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/7HB28J38QL8N7L9Z6TNRUS_Auto4BBF47BE747D4C4C71771D3ABD996FAD2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/7HB28J38QL8N7L9Z6TNRUS_Auto4.uasset'
+[2025.04.15-14.42.18:849][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/JG/Z1RJG1NYFZMNFTPPD7G8TK_Auto4
+[2025.04.15-14.42.18:849][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Z1RJG1NYFZMNFTPPD7G8TK_Auto42AC6E5B34B72CD1CAF9A81919802FCB2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/JG/Z1RJG1NYFZMNFTPPD7G8TK_Auto4.uasset'
+[2025.04.15-14.42.18:857][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/PW/X4LRZYAGJT9U4NGHHW6ZDD_Auto4
+[2025.04.15-14.42.18:858][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/X4LRZYAGJT9U4NGHHW6ZDD_Auto412AD0B174EBDE64DCA97E0A534B927B2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/PW/X4LRZYAGJT9U4NGHHW6ZDD_Auto4.uasset'
+[2025.04.15-14.42.18:876][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/04/VUUWIZ2NSC3GMKI5JFV7PO_Auto4
+[2025.04.15-14.42.18:876][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/VUUWIZ2NSC3GMKI5JFV7PO_Auto467FF2DE7448918C1ABE6DDBC4554F141.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/04/VUUWIZ2NSC3GMKI5JFV7PO_Auto4.uasset'
+[2025.04.15-14.42.18:891][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1Z/6G2MMLXVED129MOSZJV38Q_Auto4
+[2025.04.15-14.42.18:891][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/6G2MMLXVED129MOSZJV38Q_Auto47DF9F5D84EC07346D2D5C789885B3335.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1Z/6G2MMLXVED129MOSZJV38Q_Auto4.uasset'
+[2025.04.15-14.42.18:908][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6P/600ZQO17PT8630KY7UXRRI_Auto4
+[2025.04.15-14.42.18:908][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/600ZQO17PT8630KY7UXRRI_Auto45B5829E34634BDF3288713A271659726.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6P/600ZQO17PT8630KY7UXRRI_Auto4.uasset'
+[2025.04.15-14.42.18:925][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/AC/W22I0WZ7WNA2X8KE0D6T4Z_Auto4
+[2025.04.15-14.42.18:925][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/W22I0WZ7WNA2X8KE0D6T4Z_Auto4EDA3FD6B48AEADEF6A7747872AA6006B.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/AC/W22I0WZ7WNA2X8KE0D6T4Z_Auto4.uasset'
+[2025.04.15-14.42.18:932][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/QD/JFXD49XZQOVKTDEDHUSIFL_Auto4
+[2025.04.15-14.42.18:932][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/JFXD49XZQOVKTDEDHUSIFL_Auto43F90334D43C367E2C2750D83B711180D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/QD/JFXD49XZQOVKTDEDHUSIFL_Auto4.uasset'
+[2025.04.15-14.42.18:945][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/Y5/34XVA2XNFDS5WFZ9B1E6J6_Auto4
+[2025.04.15-14.42.18:945][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/34XVA2XNFDS5WFZ9B1E6J6_Auto4DFCDF4684A3F5D1D94795F9F3EC2D179.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/Y5/34XVA2XNFDS5WFZ9B1E6J6_Auto4.uasset'
+[2025.04.15-14.42.18:960][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/1H/R2OAQ3RGR6ICQQYV7NXKIB_Auto4
+[2025.04.15-14.42.18:960][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/R2OAQ3RGR6ICQQYV7NXKIB_Auto4535F8B5841F8B89EE8CF58836A6CDDF1.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/1H/R2OAQ3RGR6ICQQYV7NXKIB_Auto4.uasset'
+[2025.04.15-14.42.18:961][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/3P/77BFMX97QF0NDKHYXXFQB8_Auto4
+[2025.04.15-14.42.18:961][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/77BFMX97QF0NDKHYXXFQB8_Auto4A894CFBB4E8EBCFB4AE0B28DC74C3B4B.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/3P/77BFMX97QF0NDKHYXXFQB8_Auto4.uasset'
+[2025.04.15-14.42.18:964][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UF/8765LI4B1HMUS00M1H5TX0_Auto4
+[2025.04.15-14.42.18:964][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/8765LI4B1HMUS00M1H5TX0_Auto404F56D3C4E28104FE596CB98AC3321ED.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UF/8765LI4B1HMUS00M1H5TX0_Auto4.uasset'
+[2025.04.15-14.42.18:973][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WR/OJL6CZ1NDHZ29W6U5P44NI_Auto4
+[2025.04.15-14.42.18:973][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/OJL6CZ1NDHZ29W6U5P44NI_Auto46DE8571343D40B95991243B7EABE9E9D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WR/OJL6CZ1NDHZ29W6U5P44NI_Auto4.uasset'
+[2025.04.15-14.42.18:980][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/X5/QKIFCDI1L99ZCDJYVC9Q4V_Auto4
+[2025.04.15-14.42.18:980][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/QKIFCDI1L99ZCDJYVC9Q4V_Auto488C9255440350E1562A31C9401821635.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/X5/QKIFCDI1L99ZCDJYVC9Q4V_Auto4.uasset'
+[2025.04.15-14.42.18:982][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Z9/U8CKS81B7XOR554N2W6K9O_Auto4
+[2025.04.15-14.42.18:982][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/U8CKS81B7XOR554N2W6K9O_Auto46ECE277D4AA3D0BAD6D9BD8A7EEA3E88.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Z9/U8CKS81B7XOR554N2W6K9O_Auto4.uasset'
+[2025.04.15-14.42.18:984][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/SJ/N5GDNQP384WDG4VHZ1BTMM_Auto4
+[2025.04.15-14.42.18:984][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/N5GDNQP384WDG4VHZ1BTMM_Auto4104BEB254B6726206ECE8EBACA9C9890.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/SJ/N5GDNQP384WDG4VHZ1BTMM_Auto4.uasset'
+[2025.04.15-14.42.18:987][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/MW/G53JD17ZZ12EUCKO19NVSA_Auto4
+[2025.04.15-14.42.18:987][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/G53JD17ZZ12EUCKO19NVSA_Auto4EFC3759E45C1FB44FFD6ACA2D8591900.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/MW/G53JD17ZZ12EUCKO19NVSA_Auto4.uasset'
+[2025.04.15-14.42.18:990][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/ZXDGZL3MP7FOPQGV52X563_Auto4
+[2025.04.15-14.42.18:990][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/ZXDGZL3MP7FOPQGV52X563_Auto413292CED48FD539D9C7932A75B615BA4.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/ZXDGZL3MP7FOPQGV52X563_Auto4.uasset'
+[2025.04.15-14.42.18:992][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0U/SXZZSPFDWJSZDC2UYZ0XOQ_Auto4
+[2025.04.15-14.42.18:992][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/SXZZSPFDWJSZDC2UYZ0XOQ_Auto4F6A30EDC4CE96847D8361889B2EB8ACA.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0U/SXZZSPFDWJSZDC2UYZ0XOQ_Auto4.uasset'
+[2025.04.15-14.42.18:995][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J2/SUCJ8SUM2FSHXP6JR9NE5Y_Auto4
+[2025.04.15-14.42.18:995][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/SUCJ8SUM2FSHXP6JR9NE5Y_Auto44D6995E248719A8AE0E583A836364A49.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J2/SUCJ8SUM2FSHXP6JR9NE5Y_Auto4.uasset'
+[2025.04.15-14.42.19:005][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GU/GYHG7HBK0368KHFN76QUJ3_Auto4
+[2025.04.15-14.42.19:005][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/GYHG7HBK0368KHFN76QUJ3_Auto4E784E00E466858CAF8F98A99BF516013.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GU/GYHG7HBK0368KHFN76QUJ3_Auto4.uasset'
+[2025.04.15-14.42.19:011][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/NT/84Y2F4ZA1FBLHSVQE5KSFL_Auto4
+[2025.04.15-14.42.19:011][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/84Y2F4ZA1FBLHSVQE5KSFL_Auto456B1E32B41675A6E232A0284B762470F.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/NT/84Y2F4ZA1FBLHSVQE5KSFL_Auto4.uasset'
+[2025.04.15-14.42.19:025][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/S1/ZPEYD3IY1Y3JELS3VNVBM3_Auto4
+[2025.04.15-14.42.19:025][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/ZPEYD3IY1Y3JELS3VNVBM3_Auto4DB7306E3467564095801F8886FB07BF8.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/S1/ZPEYD3IY1Y3JELS3VNVBM3_Auto4.uasset'
+[2025.04.15-14.42.19:035][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/S6/E1Y33F4YCAW2QKPJ2432AY_Auto4
+[2025.04.15-14.42.19:035][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/E1Y33F4YCAW2QKPJ2432AY_Auto46AD6D93D4E989884D8916EA57CD2023B.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/S6/E1Y33F4YCAW2QKPJ2432AY_Auto4.uasset'
+[2025.04.15-14.42.19:041][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YM/B53O9UAF45LTZ2LUBW2VQB_Auto4
+[2025.04.15-14.42.19:041][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/B53O9UAF45LTZ2LUBW2VQB_Auto474956A6C44BA451BC0119D951DB716B9.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/YM/B53O9UAF45LTZ2LUBW2VQB_Auto4.uasset'
+[2025.04.15-14.42.19:056][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/CN/WMRKGFS36ULP6M6755RG9H_Auto4
+[2025.04.15-14.42.19:056][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/WMRKGFS36ULP6M6755RG9H_Auto407893C0247CC9FCD283059852CA8DA2E.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/CN/WMRKGFS36ULP6M6755RG9H_Auto4.uasset'
+[2025.04.15-14.42.19:068][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/NY/ETTMKV7OJS52YV3XRTVBNF_Auto4
+[2025.04.15-14.42.19:068][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/ETTMKV7OJS52YV3XRTVBNF_Auto469D2424C4458B66426FAEF929FE47F2C.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/NY/ETTMKV7OJS52YV3XRTVBNF_Auto4.uasset'
+[2025.04.15-14.42.19:070][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8S/IEWNHXAK6DT2N3O83MHH96_Auto4
+[2025.04.15-14.42.19:070][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/IEWNHXAK6DT2N3O83MHH96_Auto4F3F20E3F4A51B318D629648204938971.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8S/IEWNHXAK6DT2N3O83MHH96_Auto4.uasset'
+[2025.04.15-14.42.19:073][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/PK/O6197LBP29B0ZLBCC1ZJM8_Auto4
+[2025.04.15-14.42.19:073][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/O6197LBP29B0ZLBCC1ZJM8_Auto4C8F8A7D34154813AC1C661BFB45BF658.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/PK/O6197LBP29B0ZLBCC1ZJM8_Auto4.uasset'
+[2025.04.15-14.42.19:075][777]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.278
+[2025.04.15-14.42.19:075][777]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.278
+[2025.04.15-14.42.19:077][777]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/MainPath2] ([1] browsable assets)...
+[2025.04.15-14.42.19:078][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/MainPath2]
+[2025.04.15-14.42.19:108][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/MainPath2_Auto4
+[2025.04.15-14.42.19:108][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/MainPath2_Auto43D9F69A8466A937FE55259988F6B58CB.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/MainPath2_Auto4.uasset'
+[2025.04.15-14.42.19:109][777]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/AlternatePath] ([1] browsable assets)...
+[2025.04.15-14.42.19:252][777]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imports/AlternatePath.AlternatePath]
+[2025.04.15-14.42.19:252][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/AlternatePath]
+[2025.04.15-14.42.19:282][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/AlternatePath_Auto4
+[2025.04.15-14.42.19:282][777]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/AlternatePath_Auto4E675719347BE366E37A33D86D19D74FF.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/AlternatePath_Auto4.uasset'
+[2025.04.15-14.42.19:284][777]LogFileHelpers: Auto-saving content packages took 0.210
