@@ -2059,3 +2059,787 @@ Sampler Limit: 32
 [2025.09.17-18.52.19:214][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2025.09.17-18.52.19:223][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
 [2025.09.17-18.52.19:289][380]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.09.17-18.54.12:275][140]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 335.178528
+[2025.09.17-18.54.13:274][142]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-18.54.13:274][142]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 335.844666, Update Interval: 341.738342
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: ================================================
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Total job queries 452, among them cache hits 176 (38.94%), DDC hits 249 (55.09%), Duplicates 2 (0.44%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Tracking 274 distinct input hashes that result in 216 distinct outputs (78.83%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: RAM used: 142.85 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Shaders Compiled: 25
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Jobs assigned 25, completed 25 (100%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Average time worker was idle: 18.66 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.03 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.10
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Shader code size: average 6.664 KiB, min 2.934 KiB, max 11.238 KiB
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.36 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Jobs were issued in 25 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Average processing rate: 3.40 jobs/sec
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Total thread time: 9.551 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Total thread preprocess time: 5.939 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Percentage time preprocessing: 62.18%
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Effective parallelization: 1.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.41 sec, max 0.44 sec, min 0.39 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.29 sec, max 0.30 sec, min 0.27 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                       FPostProcessMaterialPS (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.29% of total time (compiled    8 times, average 0.41 sec, max 0.44 sec, min 0.39 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 25.61% of total time (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.99% of total time (compiled    8 times, average 0.29 sec, max 0.30 sec, min 0.27 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 16.11% of total time (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: === Material stats ===
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Materials Translated:    228
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Material Translation Only: 0.04 s (26%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: Material Cache Hits: 20 (9%)
+[2025.09.17-18.54.43:608][233]LogShaderCompilers: Display: ================================================
+[2025.09.17-18.59.05:032][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.09.17-18.59.05:034][ 17]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.023
+[2025.09.17-18.59.05:034][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PPM] ([1] browsable assets)...
+[2025.09.17-18.59.06:322][ 17]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PPM.PPM]
+[2025.09.17-18.59.06:322][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/PPM]
+[2025.09.17-18.59.06:323][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PPM" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/PPM_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.09.17-18.59.06:325][ 17]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PPM_Auto1
+[2025.09.17-18.59.06:326][ 17]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/PPM_Auto12DF3F8594A17BCBB8E9228AD1F3B54ED.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/PPM_Auto1.uasset'
+[2025.09.17-18.59.06:326][ 17]LogFileHelpers: Auto-saving content packages took 1.293
+[2025.09.17-18.59.58:017][173]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 680.921387
+[2025.09.17-18.59.59:017][176]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-18.59.59:017][176]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 681.587891, Update Interval: 348.930939
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Total job queries 456, among them cache hits 177 (38.82%), DDC hits 249 (54.61%), Duplicates 2 (0.44%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Tracking 277 distinct input hashes that result in 217 distinct outputs (78.34%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: RAM used: 143.53 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Shaders Compiled: 28
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Average time worker was idle: 65.92 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Job execution time: average 0.60 s, max 1.12 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Job life time (pending + execution): average 0.66 s, max 1.17
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Shader code size: average 6.803 KiB, min 2.934 KiB, max 11.238 KiB
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.53 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Average processing rate: 3.28 jobs/sec
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Total thread time: 10.49 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Total thread preprocess time: 5.966 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Percentage time preprocessing: 56.87%
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.41 sec, max 0.44 sec, min 0.39 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.29 sec, max 0.30 sec, min 0.27 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                       FPostProcessMaterialPS (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.22% of total time (compiled    8 times, average 0.41 sec, max 0.44 sec, min 0.39 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 23.32% of total time (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.85% of total time (compiled    8 times, average 0.29 sec, max 0.30 sec, min 0.27 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 14.67% of total time (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.28% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: === Material stats ===
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Materials Translated:    228
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Material Translation Only: 0.04 s (26%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: Material Cache Hits: 20 (9%)
+[2025.09.17-19.00.43:690][310]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.05.54:412][242]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1037.316040
+[2025.09.17-19.05.55:413][245]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.05.55:413][245]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1037.981934, Update Interval: 304.319580
+[2025.09.17-19.11.11:132][192]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1354.034546
+[2025.09.17-19.11.12:132][195]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.11.12:132][195]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1354.700806, Update Interval: 329.934998
+[2025.09.17-19.17.01:516][244]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1704.417358
+[2025.09.17-19.17.02:516][246]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.17.02:516][246]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1705.084106, Update Interval: 304.984283
+[2025.09.17-19.17.38:810][236]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.17.38:991][237]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.17-19.17.39:168][241]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.17-19.17.39:674][267]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.17-19.17.39:855][276]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.09.17-19.17.39:951][279]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.17-19.18.22:778][778]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TestColorMaterial.TestColorMaterial
+[2025.09.17-19.18.22:780][778]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.17-19.18.23:005][778]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.18.23:005][778]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.18.23:005][778]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.18.23:005][778]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Shader Count: 5
+[2025.09.17-19.18.23:121][780]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.18.50:231][973]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.18.50:231][973]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.18.50:231][973]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.18.50:231][973]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Shader Count: 5
+[2025.09.17-19.18.50:278][975]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.19.09:819][143]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.19.09:819][143]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.19.09:819][143]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.19.09:819][143]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Shader Count: 5
+[2025.09.17-19.19.09:899][145]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.19.15:922][504]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.19.15:922][504]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.19.15:922][504]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.19.15:922][504]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Shader Count: 5
+[2025.09.17-19.19.15:979][506]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.19.41:489][ 28]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.19.41:496][ 28]MaterialEditorStats: Error: [SM6] (Node BumpOffset) Missing Height input
+[2025.09.17-19.20.50:946][170]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.20.50:948][170]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node CollectionParameter) CollectionParameter has invalid Collection!
+	(Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+
+[2025.09.17-19.20.50:954][170]MaterialEditorStats: Error: [SM6] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2025.09.17-19.20.50:954][170]MaterialEditorStats: Error: [SM6] (Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+[2025.09.17-19.20.56:049][471]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.17-19.20.57:416][549]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node CollectionParameter) CollectionParameter has invalid parameter None
+	(Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+
+[2025.09.17-19.20.57:419][549]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node CollectionParameter) CollectionParameter has invalid parameter None
+	(Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+
+[2025.09.17-19.20.57:423][549]MaterialEditorStats: Error: [SM6] (Node CollectionParameter) CollectionParameter has invalid parameter None
+[2025.09.17-19.20.57:423][549]MaterialEditorStats: Error: [SM6] (Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+[2025.09.17-19.20.59:913][697]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+
+[2025.09.17-19.20.59:917][697]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+
+[2025.09.17-19.20.59:929][697]MaterialEditorStats: Error: [SM6] (Node BumpOffset) Invalid node used in vertex/hull/domain shader input!
+[2025.09.17-19.21.08:803][227]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.21.08:804][227]MaterialEditorStats: Error: [SM6] (Node BumpOffset) Missing Height input
+[2025.09.17-19.21.41:086][885]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Total job queries 500, among them cache hits 211 (42.20%), DDC hits 257 (51.40%), Duplicates 2 (0.40%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Tracking 287 distinct input hashes that result in 224 distinct outputs (78.05%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: RAM used: 146.02 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Shaders Compiled: 30
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Jobs assigned 30, completed 30 (100%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Average time worker was idle: 161.41 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Job execution time: average 0.64 s, max 1.32 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Job life time (pending + execution): average 0.70 s, max 1.32
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Shader code size: average 6.813 KiB, min 2.934 KiB, max 11.238 KiB
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.86 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Average processing rate: 3.04 jobs/sec
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Total thread time: 11.006 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Total thread preprocess time: 6.425 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Percentage time preprocessing: 58.38%
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Effective parallelization: 1.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.40 sec, max 0.44 sec, min 0.30 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.28 sec, max 0.30 sec, min 0.22 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                       FPostProcessMaterialPS (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.46% of total time (compiled    9 times, average 0.40 sec, max 0.44 sec, min 0.30 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.81% of total time (compiled    9 times, average 0.28 sec, max 0.30 sec, min 0.22 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 22.22% of total time (compiled    3 times, average 0.82 sec, max 0.84 sec, min 0.78 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 13.98% of total time (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.03% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: === Material stats ===
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Materials Translated:    255
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Material Translation Only: 0.04 s (28%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: Material Cache Hits: 20 (8%)
+[2025.09.17-19.21.43:863][ 49]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.21.44:981][108]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.17-19.21.44:986][108]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.21.57:748][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.09.17-19.21.57:753][864]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW_Auto2
+[2025.09.17-19.21.57:754][864]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/0Q6VCNAQ0R8V2CNKBZHMBW_Auto234E228404B78EE39B1048FBAA73C6C3C.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW_Auto2.uasset'
+[2025.09.17-19.21.57:755][864]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.047
+[2025.09.17-19.21.57:755][864]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2025.09.17-19.22.18:046][ 23]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.22.18:049][ 23]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.22.38:884][804]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.22.38:885][804]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.22.38:895][804]LogMaterial: Warning: [AssetLog] /Engine/Transient.TestColorMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node BumpOffset) Missing Height input
+
+[2025.09.17-19.22.38:935][805]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.09.17-19.22.47:596][300]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.22.47:596][300]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.47:596][300]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.22.47:596][300]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.48:174][329]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.22.48:174][329]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.48:174][329]MaterialEditorStats: Shader Count: 5
+[2025.09.17-19.22.48:174][329]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.48:691][357]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.48:691][357]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.22.48:691][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.48:691][357]MaterialEditorStats: Shader Count: 8
+[2025.09.17-19.22.48:691][357]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Shader Count: 9
+[2025.09.17-19.22.48:807][364]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.53:609][645]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2056.510254
+[2025.09.17-19.22.53:693][650]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.22.53:693][650]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2056.577148, Update Interval: 306.049988
+[2025.09.17-19.22.56:328][807]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.22.56:328][807]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.56:328][807]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.22.56:328][807]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Shader Count: 9
+[2025.09.17-19.22.56:358][809]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.58:633][944]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.22.58:633][944]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.58:633][944]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.22.58:633][944]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Shader Count: 11
+[2025.09.17-19.22.58:665][946]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.23.02:146][152]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.23.02:146][152]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.23.02:146][152]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.23.02:146][152]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Shader Count: 9
+[2025.09.17-19.23.02:176][154]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.23.18:049][ 83]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.23.18:061][ 83]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.17-19.23.18:061][ 83]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.23.18:061][ 83]MaterialEditorStats: Shader Count: 0
+[2025.09.17-19.23.18:061][ 83]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Base pass shader: 178 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Base pass vertex shader: 191 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Texture samplers: 1/16
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Shader Count: 11
+[2025.09.17-19.23.18:102][ 85]MaterialEditorStats: Preshaders: 4  (4 param fetches, 8 ops)
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Total job queries 625, among them cache hits 306 (48.96%), DDC hits 257 (41.12%), Duplicates 2 (0.32%)
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Tracking 317 distinct input hashes that result in 244 distinct outputs (76.97%)
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: RAM used: 153.07 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Shaders Compiled: 60
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Jobs assigned 60, completed 60 (100%)
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Average time worker was idle: 120.48 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Job execution time: average 0.64 s, max 1.32 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Job life time (pending + execution): average 0.71 s, max 1.36
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Shader code size: average 6.946 KiB, min 2.691 KiB, max 12.48 KiB
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.26 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Jobs were issued in 60 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Average processing rate: 3.93 jobs/sec
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Total thread time: 21.584 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Total thread preprocess time: 7.88 s
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Percentage time preprocessing: 36.51%
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Effective parallelization: 1.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.17-19.24.43:964][966]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 0.73 sec, max 0.84 sec, min 0.64 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 0.39 sec, max 0.45 sec, min 0.30 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.28% of total time (compiled   14 times, average 0.39 sec, max 0.45 sec, min 0.30 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 23.59% of total time (compiled    7 times, average 0.73 sec, max 0.84 sec, min 0.64 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.44% of total time (compiled   14 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 7.13% of total time (compiled    6 times, average 0.26 sec, max 0.27 sec, min 0.23 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.71% of total time (compiled    5 times, average 0.29 sec, max 0.36 sec, min 0.26 sec)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: === Material stats ===
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Materials Translated:    279
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: Material Cache Hits: 20 (7%)
+[2025.09.17-19.24.43:965][966]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.28.53:993][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2416.900146
+[2025.09.17-19.28.54:993][719]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.28.54:993][719]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2417.566895, Update Interval: 350.465393
+[2025.09.17-19.35.19:725][873]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2802.624268
+[2025.09.17-19.35.20:725][876]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.35.20:726][876]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2803.289551, Update Interval: 322.216858
+[2025.09.17-19.37.43:178][ 68]LogStreaming: Display: FlushAsyncLoading(687): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.37.43:179][ 68]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/StarterContent/Textures/T_Brick_Clay_Beveled_N.T_Brick_Clay_Beveled_N
+[2025.09.17-19.37.58:400][961]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.09.17-19.37.59:510][ 26]LogStreaming: Display: FlushAsyncLoading(688): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.38.31:960][937]LogStreaming: Display: FlushAsyncLoading(689): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.38.32:663][976]LogStreaming: Display: FlushAsyncLoading(690): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.38.38:960][322]LogStreaming: Display: FlushAsyncLoading(691): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.38.40:712][424]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Total job queries 670, among them cache hits 318 (47.46%), DDC hits 257 (38.36%), Duplicates 2 (0.30%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Tracking 350 distinct input hashes that result in 270 distinct outputs (77.14%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: RAM used: 162.94 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Shaders Compiled: 93
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Jobs assigned 93, completed 93 (100%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Average time worker was idle: 200.67 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 1.24 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Job execution time: average 0.84 s, max 2.04 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 2.17
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Shader code size: average 7.299 KiB, min 2.691 KiB, max 15.271 KiB
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.49 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Jobs were issued in 93 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Average processing rate: 4.77 jobs/sec
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Total thread time: 36.289 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Total thread preprocess time: 8.403 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Percentage time preprocessing: 23.16%
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Effective parallelization: 1.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 0.77 sec, max 0.89 sec, min 0.55 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    8 times, average 0.72 sec, max 0.84 sec, min 0.64 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.38% of total time (compiled   16 times, average 0.39 sec, max 0.47 sec, min 0.30 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.93% of total time (compiled    8 times, average 0.72 sec, max 0.84 sec, min 0.64 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.03% of total time (compiled   16 times, average 0.27 sec, max 0.34 sec, min 0.22 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.33% of total time (compiled    3 times, average 0.77 sec, max 0.89 sec, min 0.55 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display:                                                 FLumenCardPS - 5.86% of total time (compiled    7 times, average 0.30 sec, max 0.38 sec, min 0.26 sec)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: === Material stats ===
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Materials Translated:    282
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: Material Cache Hits: 20 (7%)
+[2025.09.17-19.39.44:240][ 53]LogShaderCompilers: Display: ================================================
+[2025.09.17-19.39.54:307][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.09.17-19.39.54:310][ 83]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW_Auto3
+[2025.09.17-19.39.54:310][ 83]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/0Q6VCNAQ0R8V2CNKBZHMBW_Auto352C73B4E4C28188A25A0DC85C63A46A2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW_Auto3.uasset'
+[2025.09.17-19.39.54:311][ 83]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.036
+[2025.09.17-19.39.54:311][ 83]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2025.09.17-19.39.54:311][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat] ([1] browsable assets)...
+[2025.09.17-19.39.54:428][ 83]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat.T_Brick_Clay_Beveled_Mat]
+[2025.09.17-19.39.54:428][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat]
+[2025.09.17-19.39.54:429][ 83]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat_Auto3
+[2025.09.17-19.39.54:429][ 83]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Clay_Beveled_Mat_Auto30A72443049DBB4EE37B67CB79F1652C3.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat_Auto3.uasset'
+[2025.09.17-19.39.54:430][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat] ([1] browsable assets)...
+[2025.09.17-19.39.54:453][ 83]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat.T_Brick_Cut_Stone_Mat]
+[2025.09.17-19.39.54:453][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat]
+[2025.09.17-19.39.54:454][ 83]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat_Auto3
+[2025.09.17-19.39.54:455][ 83]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Cut_Stone_Mat_Auto35DE7B4154DFD908A981BE3A68B07AA38.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat_Auto3.uasset'
+[2025.09.17-19.39.54:455][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
+[2025.09.17-19.39.54:477][ 83]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Brick_Clay_Old_Mat.T_Brick_Clay_Old_Mat]
+[2025.09.17-19.39.54:477][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat]
+[2025.09.17-19.39.54:479][ 83]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat_Auto3
+[2025.09.17-19.39.54:479][ 83]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Clay_Old_Mat_Auto3771712F14D1B3EB5F9622A849F7E40CB.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat_Auto3.uasset'
+[2025.09.17-19.39.54:480][ 83]LogFileHelpers: Auto-saving content packages took 0.169
+[2025.09.17-19.41.38:260][396]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3181.148193
+[2025.09.17-19.41.39:260][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.41.39:260][399]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3181.815186, Update Interval: 344.384277
+[2025.09.17-19.47.56:984][531]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3559.871582
+[2025.09.17-19.47.57:984][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.47.57:985][535]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3560.538330, Update Interval: 343.864258
+[2025.09.17-19.50.33:558][  1]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.17-19.54.24:709][695]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3947.593018
+[2025.09.17-19.54.25:711][698]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-19.54.25:711][698]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3948.261475, Update Interval: 330.788300
+[2025.09.17-20.00.44:427][833]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4327.321289
+[2025.09.17-20.00.45:427][836]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-20.00.45:428][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4327.987793, Update Interval: 303.632935
+[2025.09.17-20.06.26:148][858]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4669.051270
+[2025.09.17-20.06.27:147][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-20.06.27:147][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4669.718262, Update Interval: 329.504700
+[2025.09.17-20.12.52:218][ 16]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5055.120117
+[2025.09.17-20.12.53:219][ 20]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-20.12.53:219][ 20]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5055.787109, Update Interval: 314.599457
+[2025.09.17-20.19.04:291][132]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5427.206055
+[2025.09.17-20.19.05:290][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-20.19.05:290][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5427.871094, Update Interval: 350.198059
+[2025.09.17-20.33.19:539][370]LogHttp: Warning: 00000751DB6C8C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 0 (Too old connection (821 seconds idle), disconnect it)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 2 (Closing connection)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.17-20.33.19:540][370]LogHttp: Warning: 00000751DB6C8C00: libcurl info message cache 7 (Closing connection)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB5FA2DC-42AF-A08E-8F60-0DA7C0D4F88F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 0 (Too old connection (821 seconds idle), disconnect it)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 1 (Connection 23 seems to be dead)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 2 (Closing connection)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.17-20.33.19:540][370]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.17-20.33.19:540][371]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.33.19:540][371]LogEOSSDK: Warning: LogHttp: 00000751CECED800: libcurl info message cache 7 (Closing connection)
+[2025.09.17-20.33.19:540][371]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB5FA2DC-42AF-A08E-8F60-0DA7C0D4F88F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.17-20.33.19:884][372]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.33.19:885][372]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.33.19:885][372]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.33.19:885][372]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 1 (Closing connection)
+[2025.09.17-20.33.19:885][372]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.33.21:211][377]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.33.21:542][377]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.33.21:544][377]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.33.21:544][377]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.33.21:544][377]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 3 (Closing connection)
+[2025.09.17-20.33.21:544][377]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.33.22:545][380]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogHttp: 00000751CECE6600: libcurl info message cache 5 (Closing connection)
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.33.22:879][381]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.17-20.39.09:881][384]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6632.800293
+[2025.09.17-20.39.10:807][385]LogHttp: Warning: 00000751DB6C3100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.10:807][385]LogHttp: Warning: 00000751DB6C3100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.17-20.39.10:807][385]LogHttp: Warning: 00000751DB6C3100: libcurl info message cache 1 (Closing connection)
+[2025.09.17-20.39.10:807][385]LogEOSSDK: Warning: LogHttp: 00000751CECE4200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB5FA2DC-42AF-A08E-8F60-0DA7C0D4F88F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.39.10:807][386]LogEOSSDK: Warning: LogHttp: 00000751CECE4200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.10:807][386]LogEOSSDK: Warning: LogHttp: 00000751CECE4200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.39.10:807][386]LogEOSSDK: Warning: LogHttp: 00000751CECE4200: libcurl info message cache 1 (Closing connection)
+[2025.09.17-20.39.10:817][386]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB5FA2DC-42AF-A08E-8F60-0DA7C0D4F88F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 1 (Closing connection)
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECEEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECEEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECEEA00: libcurl info message cache 0 (Found bundle for host: 0x751de080270 [serially])
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECEEA00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.39.11:147][387]LogEOSSDK: Warning: LogHttp: 00000751CECEEA00: libcurl info message cache 2 (Closing connection)
+[2025.09.17-20.39.11:147][388]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.39.11:147][388]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30
+[2025.09.17-20.39.11:147][388]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+[2025.09.17-20.39.11:481][388]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 39.295631 seconds
+[2025.09.17-20.39.12:478][391]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.39.12:808][393]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.39.12:808][393]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.12:808][393]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.39.12:808][393]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 3 (Closing connection)
+[2025.09.17-20.39.12:808][393]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.39.13:808][395]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogHttp: 00000751CECE3C00: libcurl info message cache 5 (Closing connection)
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=74AF8BA94DA8C1D5A03E228C3EFB1265
+[2025.09.17-20.39.14:142][397]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.17-21.00.13:864][397]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7896.783691
+[2025.09.17-21.00.15:652][404]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.17-21.00.15:652][404]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7898.227051, Update Interval: 303.645752
+[2025.09.17-21.02.04:141][469]LogSlate: Window 'Message' being destroyed
+[2025.09.17-21.02.04:151][469]Message dialog closed, result: Yes, title: Message, text: Plugin 'Procedural Content Generation Framework (PCG)' is a beta version. Epic recommends using caution when shipping projects with beta plugins. Beta plugins support backwards compatibility for assets and APIs, but performance, stability, and platform support may not be shipping quality. Are you sure you want to enable the plugin?
+[2025.09.17-21.02.07:040][631]Cmd: CLOSE_SLATE_MAINFRAME
+[2025.09.17-21.02.07:990][631]LogSlate: Window 'Message' being destroyed
+[2025.09.17-21.02.08:000][631]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/TestColorMaterial.TestColorMaterial
+(Selecting 'No' will cause all changes to be lost!)
+[2025.09.17-21.02.08:134][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.09.17-21.02.10:863][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.09.17-21.02.10:890][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.09.17-21.02.12:034][631]LogSlate: Window 'Save Content' being destroyed
+[2025.09.17-21.02.12:049][631]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.17-21.02.12:089][631]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW
+[2025.09.17-21.02.12:090][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/0Q6VCNAQ0R8V2CNKBZHMBW6447F55443AEFCEA8F1096B044736055.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/A3/0Q6VCNAQ0R8V2CNKBZHMBW.uasset'
+[2025.09.17-21.02.12:091][631]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PPM] ([1] browsable assets)...
+[2025.09.17-21.02.12:091][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/PPM]
+[2025.09.17-21.02.12:091][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PPM" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/PPM.uasset" SILENT=true
+[2025.09.17-21.02.12:091][631]LogSavePackage: Moving output files for package: /Game/PPM
+[2025.09.17-21.02.12:092][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/PPM3260B899426298925B6F628F78816921.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/PPM.uasset'
+[2025.09.17-21.02.12:093][631]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat] ([1] browsable assets)...
+[2025.09.17-21.02.12:093][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat]
+[2025.09.17-21.02.12:094][631]LogSavePackage: Moving output files for package: /Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat
+[2025.09.17-21.02.12:094][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Clay_Beveled_MatD193CD5C40475A1289258DB5B1FE30E2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/StarterContent/Textures/T_Brick_Clay_Beveled_Mat.uasset'
+[2025.09.17-21.02.12:095][631]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat] ([1] browsable assets)...
+[2025.09.17-21.02.12:095][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Clay_Old_Mat]
+[2025.09.17-21.02.12:096][631]LogSavePackage: Moving output files for package: /Game/StarterContent/Textures/T_Brick_Clay_Old_Mat
+[2025.09.17-21.02.12:096][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Clay_Old_Mat607759F04FEFA1731B527E80D3144CAD.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/StarterContent/Textures/T_Brick_Clay_Old_Mat.uasset'
+[2025.09.17-21.02.12:097][631]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat] ([1] browsable assets)...
+[2025.09.17-21.02.12:097][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat]
+[2025.09.17-21.02.12:098][631]LogSavePackage: Moving output files for package: /Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat
+[2025.09.17-21.02.12:098][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/T_Brick_Cut_Stone_Mat2E34650C4002239C2D11D1A02E1D9A80.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/StarterContent/Textures/T_Brick_Cut_Stone_Mat.uasset'
+[2025.09.17-21.02.12:098][631]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestColorMaterial] ([1] browsable assets)...
+[2025.09.17-21.02.12:194][631]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TestColorMaterial.TestColorMaterial]
+[2025.09.17-21.02.12:194][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestColorMaterial]
+[2025.09.17-21.02.12:194][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestColorMaterial" FILE="../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/TestColorMaterial.uasset" SILENT=true
+[2025.09.17-21.02.12:196][631]LogSavePackage: Moving output files for package: /Game/TestColorMaterial
+[2025.09.17-21.02.12:196][631]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/TestColorMaterial70D1CC76422BE87E13FB50A742242BE4.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/TestColorMaterial.uasset'
+[2025.09.17-21.02.12:207][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.342 ms
+[2025.09.17-21.02.12:237][631]LogStall: Shutdown...
+[2025.09.17-21.02.12:237][631]LogStall: Shutdown complete.
+[2025.09.17-21.02.12:325][631]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:326][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:391][631]LogSlate: Window 'T_Brick_Clay_Beveled_N' being destroyed
+[2025.09.17-21.02.12:425][631]LogSlate: Window 'Plugins' being destroyed
+[2025.09.17-21.02.12:429][631]LogSlate: Window 'Ranina_Bay - Unreal Editor' being destroyed
+[2025.09.17-21.02.12:430][631]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.17-21.02.12:526][632]LogContentValidation: Display: Starting to validate 6 assets
+[2025.09.17-21.02.12:526][632]LogContentValidation: Enabled validators:
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.17-21.02.12:526][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.17-21.02.12:526][632]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.17-21.02.12:526][632]AssetCheck: /Game/PPM Validating asset
+[2025.09.17-21.02.12:526][632]AssetCheck: /Game/StarterContent/Textures/T_Brick_Clay_Beveled_Mat Validating asset
+[2025.09.17-21.02.12:526][632]AssetCheck: /Game/StarterContent/Textures/T_Brick_Clay_Old_Mat Validating asset
+[2025.09.17-21.02.12:526][632]AssetCheck: /Game/StarterContent/Textures/T_Brick_Cut_Stone_Mat Validating asset
+[2025.09.17-21.02.12:527][632]AssetCheck: /Game/TestColorMaterial Validating asset
+[2025.09.17-21.02.12:573][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.09.17-21.02.12:582][633]Cmd: QUIT_EDITOR
+[2025.09.17-21.02.12:582][633]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.17-21.02.12:590][633]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.17-21.02.12:592][633]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.17-21.02.12:592][633]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.17-21.02.12:595][633]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:595][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:595][633]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.09.17-21.02.12:602][633]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.17-21.02.12:602][633]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.17-21.02.12:605][633]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:605][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:607][633]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:607][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:609][633]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:609][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:610][633]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:610][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:612][633]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:612][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:614][633]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:614][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:616][633]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:616][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:617][633]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:618][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:619][633]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:619][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:620][633]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:620][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:622][633]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:622][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:625][633]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:625][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:627][633]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.09.17-21.02.12:627][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.17-21.02.12:630][633]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.17-21.02.12:631][633]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.09.17-21.02.12:631][633]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.09.17-21.02.12:631][633]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.09.17-21.02.12:697][633]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.17-21.02.12:697][633]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.17-21.02.12:697][633]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.09.17-21.02.12:697][633]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.17-21.02.12:699][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.17-21.02.12:701][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.17-21.02.12:707][633]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.17-21.02.12:707][633]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.17-21.02.12:712][633]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.17-21.02.12:712][633]LogExit: Preparing to exit.
+[2025.09.17-21.02.12:780][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2025.09.17-21.02.12:784][633]LogPython: Display: Object '/MovieRenderPipeline/Python/MoviePipelineExampleRuntimeExecutor_PY.MoviePipelineExampleRuntimeExecutor' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:784][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:784][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.12:785][633]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.17-21.02.13:128][633]LogEditorDataStorage: Deinitializing
+[2025.09.17-21.02.13:457][633]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.17-21.02.13:486][633]LogExit: Editor shut down
+[2025.09.17-21.02.13:489][633]LogExit: Transaction tracking system shut down
+[2025.09.17-21.02.13:885][633]LogExit: Object subsystem successfully closed.
+[2025.09.17-21.02.13:932][633]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.17-21.02.15:236][633]LogMemoryProfiler: Shutdown
+[2025.09.17-21.02.15:236][633]LogNetworkingProfiler: Shutdown
+[2025.09.17-21.02.15:236][633]LoadingProfiler: Shutdown
+[2025.09.17-21.02.15:236][633]LogTimingProfiler: Shutdown
+[2025.09.17-21.02.15:864][633]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.17-21.02.15:907][633]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.17-21.02.15:907][633]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3169255-4C9A-0F7B-2C78-D6B5069D81D8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=9f73a4b149b8deb83df50bb116876a2a%7Cab452b223d344ddbb651427a988f9de4%7Ce4b83358-53e0-4df2-9c14-f794ee83e5ad&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.17-21.02.16:467][633]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.17-21.02.16:484][633]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.09.17-21.02.16:484][633]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.17-21.02.16:484][633]RenderDocPlugin: plugin has been unloaded.
+[2025.09.17-21.02.16:489][633]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.17-21.02.16:489][633]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.17-21.02.16:489][633]LogPakFile: Destroying PakPlatformFile
+[2025.09.17-21.02.17:624][633]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.17-21.02.17:895][633]LogExit: Exiting.
+[2025.09.17-21.02.17:923][633]Log file closed, 09/17/25 17:02:17
