@@ -2374,3 +2374,352 @@ Sampler Limit: 32
 [2025.09.24-20.39.08:978][466]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11027.155273
 [2025.09.24-20.39.09:982][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.24-20.39.09:982][469]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11027.825195, Update Interval: 301.395294
+[2025.09.24-20.43.32:120][265]Cmd: r.ResetRenderTargetsExtent
+[2025.09.24-20.43.32:128][265]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2025.09.24-20.43.32:129][265]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.09.24-20.44.43:153][487]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.24-20.44.44:868][488]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.09.24-21.00.05:605][488]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [930 Seconds] waiting for h/w. InstanceID=1
+[2025.09.24-21.00.05:872][488]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12293.616211
+[2025.09.24-21.00.08:145][489]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.09.24-21.00.08:147][489]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=72660
+[2025.09.24-21.00.08:152][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B9D8F3680-4A39-D541-722C-B48427FFC7BA%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.24-21.00.08:153][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.24-21.00.08:153][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 0 (Too old connection (953 seconds idle), disconnect it)
+[2025.09.24-21.00.08:153][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 1 (Connection 50 seems to be dead)
+[2025.09.24-21.00.08:153][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 2 (Closing connection)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 6 (Hostname in DNS cache was stale, zapped)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: 00000548EF403600: libcurl info message cache 8 (Closing connection)
+[2025.09.24-21.00.08:154][489]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B9D8F3680-4A39-D541-722C-B48427FFC7BA%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.24-21.00.08:431][489]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:55015'.
+[2025.09.24-21.00.08:439][489]Could not fetch the local adapter addresses
+[2025.09.24-21.00.08:439][489]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.24-21.00.08:455][490]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.24-21.00.08:479][490]LogHttp: Warning: 00000548F9A35400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 0 (Too old connection (978 seconds idle), disconnect it)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 1 (Connection 5 seems to be dead)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 2 (Closing connection)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.24-21.00.08:480][490]LogHttp: Warning: 00000548F9A35400: libcurl info message cache 7 (Closing connection)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: libcurl info message cache 1 (Closing connection)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF409600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF409600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF409600: libcurl info message cache 0 (Found bundle for host: 0x548cf080f00 [serially])
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF409600: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: 00000548EF409600: libcurl info message cache 2 (Closing connection)
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053
+[2025.09.24-21.00.08:481][491]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30
+[2025.09.24-21.00.08:482][491]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+[2025.09.24-21.00.08:793][491]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 37.547836 seconds
+[2025.09.24-21.00.09:842][492]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053
+[2025.09.24-21.00.10:058][492]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:62665'.
+[2025.09.24-21.00.10:066][492]Could not fetch the local adapter addresses
+[2025.09.24-21.00.10:066][492]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.24-21.00.10:172][493]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.24-21.00.10:173][493]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.09.24-21.00.10:179][493]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5f61e41f-9126-4124-9298-253981a9d2c5}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1712.69
+[2025.09.24-21.00.10:183][493]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.24-21.00.10:187][493]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.24-21.00.10:188][494]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.24-21.00.10:189][494]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.24-21.00.10:189][494]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.24-21.00.10:189][494]LogEOSSDK: Warning: LogHttp: 00000548EF408A00: libcurl info message cache 3 (Closing connection)
+[2025.09.24-21.00.10:189][494]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053
+[2025.09.24-21.00.11:474][497]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053
+[2025.09.24-21.00.11:803][498]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93862BEF46D46BB881926AAC5AB86053
+[2025.09.24-21.00.13:182][498]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63543'.
+[2025.09.24-21.00.13:193][498]LogUdpMessaging: Display: Added local interface '216.37.103.86' to multicast group '230.0.0.1:6666'
+[2025.09.24-21.00.46:232][599]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12333.976562
+[2025.09.24-21.00.47:236][602]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.00.47:236][602]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12334.651367, Update Interval: 306.112244
+[2025.09.24-21.06.35:870][631]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12683.590820
+[2025.09.24-21.06.35:958][636]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.06.35:958][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12683.662109, Update Interval: 323.169037
+[2025.09.24-21.08.09:142][806]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.24-21.12.52:447][365]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13060.119141
+[2025.09.24-21.12.53:447][368]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.12.53:447][369]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13060.787109, Update Interval: 340.775177
+[2025.09.24-21.19.06:511][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13434.172852
+[2025.09.24-21.19.07:510][490]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.19.07:510][490]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13434.837891, Update Interval: 323.610352
+[2025.09.24-21.25.05:901][565]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13793.559570
+[2025.09.24-21.25.06:901][568]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.25.06:901][568]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13794.226562, Update Interval: 335.442993
+[2025.09.24-21.31.27:967][711]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14175.595703
+[2025.09.24-21.31.28:967][714]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.31.28:967][714]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14176.261719, Update Interval: 319.792480
+[2025.09.24-21.37.42:032][833]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14549.652344
+[2025.09.24-21.37.43:032][837]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.37.43:032][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14550.320312, Update Interval: 350.278625
+[2025.09.24-21.44.05:752][984]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14933.354492
+[2025.09.24-21.44.06:751][987]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.44.06:751][987]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14934.019531, Update Interval: 341.564392
+[2025.09.24-21.50.20:816][109]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15308.393555
+[2025.09.24-21.50.21:814][112]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.50.21:815][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15309.058594, Update Interval: 309.692078
+[2025.09.24-21.56.25:861][205]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15673.414062
+[2025.09.24-21.56.26:861][207]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-21.56.26:861][208]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15674.080078, Update Interval: 330.476990
+[2025.09.24-22.02.49:257][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16056.778320
+[2025.09.24-22.02.50:258][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.02.50:258][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16057.445312, Update Interval: 304.345215
+[2025.09.24-22.08.09:143][314]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.24-22.08.34:304][389]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16401.802734
+[2025.09.24-22.08.35:304][392]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.08.35:304][392]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16402.472656, Update Interval: 352.779938
+[2025.09.24-22.15.13:363][587]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16801.029297
+[2025.09.24-22.15.14:363][590]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.15.14:363][590]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16801.697266, Update Interval: 303.109222
+[2025.09.24-22.20.57:085][617]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17144.882812
+[2025.09.24-22.20.58:084][620]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.20.58:084][621]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17145.548828, Update Interval: 302.059998
+[2025.09.24-22.26.57:480][698]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17505.365234
+[2025.09.24-22.26.58:481][701]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.26.58:481][701]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17506.033203, Update Interval: 311.869263
+[2025.09.24-22.32.55:485][770]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17863.458984
+[2025.09.24-22.32.56:485][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.32.56:485][774]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17864.126953, Update Interval: 323.419891
+[2025.09.24-22.38.09:570][790]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.09.24-22.38.58:961][406]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18227.048828
+[2025.09.24-22.38.59:043][410]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.38.59:043][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18227.113281, Update Interval: 306.018860
+[2025.09.24-22.44.53:114][522]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18581.486328
+[2025.09.24-22.44.54:115][525]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.44.54:115][526]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18582.154297, Update Interval: 341.029694
+[2025.09.24-22.51.18:165][677]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18966.632812
+[2025.09.24-22.51.19:164][680]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.51.19:164][680]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18967.300781, Update Interval: 313.564880
+[2025.09.24-22.57.31:555][797]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19340.259766
+[2025.09.24-22.57.32:555][800]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-22.57.32:555][800]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19340.925781, Update Interval: 340.974762
+[2025.09.24-23.03.55:618][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19724.562500
+[2025.09.24-23.03.56:618][952]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.03.56:618][953]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19725.230469, Update Interval: 335.673706
+[2025.09.24-23.08.09:144][710]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.24-23.10.23:683][113]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20112.853516
+[2025.09.24-23.10.24:683][116]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.10.24:684][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20113.519531, Update Interval: 331.246063
+[2025.09.24-23.16.47:413][264]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20496.818359
+[2025.09.24-23.16.48:413][268]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.16.48:413][268]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20497.484375, Update Interval: 301.561951
+[2025.09.24-23.22.43:131][331]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20852.744141
+[2025.09.24-23.22.44:130][334]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.22.44:130][334]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20853.410156, Update Interval: 310.744965
+[2025.09.24-23.28.47:183][423]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21216.982422
+[2025.09.24-23.28.48:184][426]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.28.48:184][427]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21217.650391, Update Interval: 344.611359
+[2025.09.24-23.35.18:595][597]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21608.513672
+[2025.09.24-23.35.19:595][601]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.35.19:595][601]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21609.181641, Update Interval: 309.194000
+[2025.09.24-23.41.27:983][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21978.093750
+[2025.09.24-23.41.28:983][709]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.41.28:983][709]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21978.761719, Update Interval: 336.532471
+[2025.09.24-23.47.36:374][810]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22346.744141
+[2025.09.24-23.47.37:374][813]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.47.37:374][813]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22347.412109, Update Interval: 349.824524
+[2025.09.24-23.54.11:771][996]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22742.386719
+[2025.09.24-23.54.12:772][999]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-23.54.12:772][999]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22743.052734, Update Interval: 346.530334
+[2025.09.25-00.00.56:502][210]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23147.294922
+[2025.09.25-00.00.57:501][213]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.00.57:501][213]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23147.962891, Update Interval: 336.702789
+[2025.09.25-00.07.05:231][316]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23516.222656
+[2025.09.25-00.07.06:230][319]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.07.06:230][319]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23516.888672, Update Interval: 302.277893
+[2025.09.25-00.08.09:144][508]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.25-00.12.43:614][331]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23854.791016
+[2025.09.25-00.12.44:614][334]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.12.44:614][334]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23855.457031, Update Interval: 318.585785
+[2025.09.25-00.18.40:665][403]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24212.009766
+[2025.09.25-00.18.41:664][405]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.18.41:664][405]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24212.675781, Update Interval: 339.628906
+[2025.09.25-00.24.56:049][529]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24587.601562
+[2025.09.25-00.24.57:050][531]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.24.57:050][532]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24588.267578, Update Interval: 351.183197
+[2025.09.25-00.31.22:446][687]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24974.230469
+[2025.09.25-00.31.23:446][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.31.23:446][691]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24974.896484, Update Interval: 357.866760
+[2025.09.25-00.37.34:088][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2025.09.25-00.37.34:112][959]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.09.25-00.37.35:857][ 58]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.09.25-00.37.36:031][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.09.25-00.37.37:325][ 58]LogSlate: Window 'Save Content' being destroyed
+[2025.09.25-00.37.37:351][ 58]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2025.09.25-00.37.37:352][ 58]PIE: Warning: PIE failed because map save was canceled
+[2025.09.25-00.37.39:320][172]LogSlate: Window 'Message Log' being destroyed
+[2025.09.25-00.37.39:334][172]LogSlate: Window 'Message Log' being destroyed
+[2025.09.25-00.37.40:876][257]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.09.25-00.37.40:877][257]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.09.25-00.37.40:905][257]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 28.755 ms (total: 371.441 ms)
+[2025.09.25-00.37.40:915][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.25-00.37.40:932][257]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.25-00.37.41:536][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.604679s)
+[2025.09.25-00.37.41:536][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.605286s)
+[2025.09.25-00.37.41:549][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.09.25-00.37.41:555][257]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.09.25-00.37.41:629][257]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.25-00.37.41:629][257]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.25-00.37.41:629][257]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.25-00.37.41:629][257]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.25-00.37.41:697][257]LogWorldPartition: Display: WorldPartition initialize took 69.043 ms (total: 3.75 sec)
+[2025.09.25-00.37.41:703][257]LogPlayLevel: PIE: World Init took: (0.149538s)
+[2025.09.25-00.37.41:705][257]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.25-00.37.41:706][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.25-00.37.41:706][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.25-00.37.41:709][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.25-00.37.41:709][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.25-00.37.41:709][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.25-00.37.41:711][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.25-00.37.41:779][257]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.25-00.37.41:786][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.25-00.37.41:786][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.25-00.37.41:788][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.25-00.37.41:797][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.09.25-00.37.41:797][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.09.25-00.37.41:798][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.09.25-00.37.41:798][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.09.25-00.37.41:799][257]LogInit: FAudioDevice initialized with ID 10.
+[2025.09.25-00.37.41:799][257]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2025.09.25-00.37.41:801][257]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.25-00.37.41:816][257]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.25-00.37.42:152][257]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.09.24-20.37.42
+[2025.09.25-00.37.42:161][257]LogWorld: Bringing up level for play took: 0.340178
+[2025.09.25-00.37.42:176][257]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.09.25-00.37.42:198][257]PIE: Server logged in
+[2025.09.25-00.37.42:199][257]PIE: Play in editor total start time 1.332 seconds.
+[2025.09.25-00.38.06:224][675]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25378.214844
+[2025.09.25-00.38.06:306][680]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.38.06:308][680]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25378.281250, Update Interval: 349.668884
+[2025.09.25-00.38.37:364][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-00.38.37:364][539]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.25-00.38.37:371][539]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-00.38.37:375][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-00.38.37:375][539]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.09.25-00.38.37:389][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.25-00.38.37:391][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-00.38.37:402][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-00.38.37:405][539]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.25-00.38.37:406][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.09.25-00.38.37:408][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.09.25-00.38.37:426][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.25-00.38.37:478][540]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.09.25-00.44.42:538][387]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25775.517578
+[2025.09.25-00.44.43:539][389]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.44.43:539][389]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25776.185547, Update Interval: 327.477661
+[2025.09.25-00.51.00:592][520]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26153.785156
+[2025.09.25-00.51.01:594][523]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.51.01:594][523]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26154.453125, Update Interval: 353.367706
+[2025.09.25-00.57.49:981][748]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26563.386719
+[2025.09.25-00.57.50:980][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-00.57.50:980][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26564.054688, Update Interval: 347.215179
+[2025.09.25-01.04.21:293][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-01.04.21:373][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.25-01.04.21:389][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.09.25-01.04.21:400][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.09.25-01.04.21:412][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7G/WH480FIJOX2WD0HGA82LFT
+[2025.09.25-01.04.21:412][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/WH480FIJOX2WD0HGA82LFT1FC24F9B49619E7CB1E317A165A71665.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7G/WH480FIJOX2WD0HGA82LFT.uasset'
+[2025.09.25-01.04.21:420][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6F/B3EM6U9CRYQ50B5Y34Y0Y4
+[2025.09.25-01.04.21:421][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/B3EM6U9CRYQ50B5Y34Y0Y4420A92D946918A5D952070A743979FE5.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6F/B3EM6U9CRYQ50B5Y34Y0Y4.uasset'
+[2025.09.25-01.04.21:423][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6A/VYZTEQAARV7DM0MZK6NQXW
+[2025.09.25-01.04.21:423][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/VYZTEQAARV7DM0MZK6NQXW3AB684C94044A293F856B8A1C1AC56A5.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6A/VYZTEQAARV7DM0MZK6NQXW.uasset'
+[2025.09.25-01.04.21:425][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/HV/OE8P8ZDS8QR178Y4557SD3
+[2025.09.25-01.04.21:425][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/OE8P8ZDS8QR178Y4557SD39994414A43703967B1C8B8A524E570D1.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/HV/OE8P8ZDS8QR178Y4557SD3.uasset'
+[2025.09.25-01.04.21:426][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/YI/OUC2984A9SPS30FXV9YG3A
+[2025.09.25-01.04.21:428][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/OUC2984A9SPS30FXV9YG3A60C9834E4C2313D9BCD75F8EEEA2D538.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/YI/OUC2984A9SPS30FXV9YG3A.uasset'
+[2025.09.25-01.04.21:429][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/IR/HV54W5SMSX0FU0SXIJKZXF
+[2025.09.25-01.04.21:429][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/HV54W5SMSX0FU0SXIJKZXF2C8002594019F838113205916F1A1E6C.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/IR/HV54W5SMSX0FU0SXIJKZXF.uasset'
+[2025.09.25-01.04.21:431][992]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/GY/3OAY50Z8YJUVZTSFX5HXH4
+[2025.09.25-01.04.21:431][992]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Saved/3OAY50Z8YJUVZTSFX5HXH4A55F78024D783CEA367D09A7CEA60114.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/GY/3OAY50Z8YJUVZTSFX5HXH4.uasset'
+[2025.09.25-01.04.21:444][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.659 ms (total: 2.09 sec)
+[2025.09.25-01.04.21:482][992]LogContentValidation: Display: Starting to validate 7 assets
+[2025.09.25-01.04.21:482][992]LogContentValidation: Enabled validators:
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-01.04.21:483][992]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-01.04.21:484][992]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.09.25-01.04.22:223][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.09.25-01.04.22:264][ 33]LogStall: Shutdown...
+[2025.09.25-01.04.22:264][ 33]LogStall: Shutdown complete.
+[2025.09.25-01.04.22:294][ 33]LogSlate: Window 'Ranina_Bay - Unreal Editor' being destroyed
+[2025.09.25-01.04.22:469][ 33]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.09.25-01.04.22:525][ 33]Cmd: QUIT_EDITOR
+[2025.09.25-01.04.22:525][ 33]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.25-01.04.22:536][ 34]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.25-01.04.22:537][ 34]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.25-01.04.22:537][ 34]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.25-01.04.22:558][ 34]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:558][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:559][ 34]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.09.25-01.04.22:595][ 34]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.25-01.04.22:612][ 34]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.25-01.04.22:623][ 34]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:623][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:625][ 34]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:625][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:627][ 34]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:627][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:627][ 34]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:627][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:628][ 34]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:628][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:628][ 34]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-01.04.22:628][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-01.04.22:642][ 34]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.25-01.04.22:651][ 34]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.09.25-01.04.22:651][ 34]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.09.25-01.04.22:651][ 34]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.09.25-01.04.23:442][ 34]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.25-01.04.23:442][ 34]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.25-01.04.23:442][ 34]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.09.25-01.04.23:442][ 34]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.25-01.04.23:442][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.25-01.04.23:444][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.09.25-01.04.23:456][ 34]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.25-01.04.23:456][ 34]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.25-01.04.23:468][ 34]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.25-01.04.23:469][ 34]LogExit: Preparing to exit.
+[2025.09.25-01.04.23:557][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.09.25-01.04.24:295][ 34]LogEditorDataStorage: Deinitializing
+[2025.09.25-01.04.24:693][ 34]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay/Content/]. Aborting watch request...
+[2025.09.25-01.04.24:978][ 34]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.25-01.04.25:096][ 34]LogExit: Editor shut down
+[2025.09.25-01.04.25:109][ 34]LogExit: Transaction tracking system shut down
+[2025.09.25-01.04.25:807][ 34]LogExit: Object subsystem successfully closed.
+[2025.09.25-01.04.25:900][ 34]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.25-01.04.27:242][ 34]LogMemoryProfiler: Shutdown
+[2025.09.25-01.04.27:242][ 34]LogNetworkingProfiler: Shutdown
+[2025.09.25-01.04.27:242][ 34]LoadingProfiler: Shutdown
+[2025.09.25-01.04.27:244][ 34]LogTimingProfiler: Shutdown
+[2025.09.25-01.04.28:311][ 34]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.25-01.04.28:333][ 34]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.25-01.04.28:333][ 34]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73F4548B-4A1D-5342-8E55-378D5C5703BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=9f73a4b149b8deb83df50bb116876a2a%7Cab452b223d344ddbb651427a988f9de4%7Ce4b83358-53e0-4df2-9c14-f794ee83e5ad&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.25-01.04.28:901][ 34]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.25-01.04.28:920][ 34]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.09.25-01.04.28:920][ 34]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.25-01.04.28:921][ 34]RenderDocPlugin: plugin has been unloaded.
+[2025.09.25-01.04.28:928][ 34]LogXGEController: Cleaning working directory: C:/Users/amais/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.09.25-01.04.28:940][ 34]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.25-01.04.28:940][ 34]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.25-01.04.28:941][ 34]LogPakFile: Destroying PakPlatformFile
+[2025.09.25-01.04.31:228][ 34]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.25-01.04.31:567][ 34]LogExit: Exiting.
+[2025.09.25-01.04.31:622][ 34]Log file closed, 09/24/25 21:04:31
