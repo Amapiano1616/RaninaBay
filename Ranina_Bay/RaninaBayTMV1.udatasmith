@@ -1,0 +1,149 @@
+<DatasmithUnrealScene>
+	<Version>0.24</Version>
+	<SDKVersion>5.6.1-46255261</SDKVersion>
+	<Host>Twinmotion</Host>
+	<Application Vendor="Epic Games Inc." ProductName="Twinmotion" ProductVersion="2025.2.0"/>
+	<ResourcePath>C:/Users/amais/Documents/GitHub/RaninaBay/Ranina_Bay</ResourcePath>
+	<User ID="9f73a4b149b8deb83df50bb116876a2a" OS="Windows 11 (24H2) [10.0.26100.7171]"/>
+	<Geolocation/>
+	<StaticMesh name="AFEE4C2040D0DF1EC74F598DB165A374" label="Starting_Ground">
+		<file path="RaninaBayTMV1_Assets/AFEE4C2040D0DF1EC74F598DB165A374.udsmesh"/>
+		<Size a="320236552192.0" x="400000.0625" y="400000.0625" z="200.017517"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="f54827aa168465e9db29afcf56c78daa"/>
+		<Material id="0" name="8EC9ABD0447337F954CA4FA490353D7A"/>
+		<Material id="1" name="AF41C3174C50C20805332BBF062CD6C7"/>
+	</StaticMesh>
+	<StaticMesh name="FE6D5F004DE76C8E6BC32DA66F010D1A" label="Starting_Landscape">
+		<file path="RaninaBayTMV1_Assets/FE6D5F004DE76C8E6BC32DA66F010D1A.udsmesh"/>
+		<Size a="5959385088.0" x="80000.015625" y="80000.0" z="1999.998535"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="adaf887678a10f111f4ac3eda2624aec"/>
+		<Material id="0" name="8EC9ABD0447337F954CA4FA490353D7A"/>
+	</StaticMesh>
+	<ActorMesh name="AFEE4C2040D0DF1EC74F598DB165A374" label="Starting_Ground" layer="TXT_Layer_Default" mobility="Static">
+		<mesh name="AFEE4C2040D0DF1EC74F598DB165A374"/>
+		<Transform tx="0.0" ty="0.0" tz="-40.0" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000000000000000000000000000000000000000000000000000F03F"/>
+		<tag value="Twinmotion.ResourceID.AFEE4C2040D0DF1EC74F598DB165A374" />
+	</ActorMesh>
+	<ActorMesh name="FE6D5F004DE76C8E6BC32DA66F010D1A" label="Starting_Landscape" layer="TXT_Layer_Default" mobility="Static">
+		<mesh name="FE6D5F004DE76C8E6BC32DA66F010D1A"/>
+		<Transform tx="0.0" ty="0.0" tz="-40.0" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000000000000000000000000000000000000000000000000000F03F"/>
+		<tag value="Twinmotion.ResourceID.FE6D5F004DE76C8E6BC32DA66F010D1A" />
+	</ActorMesh>
+	<Texture name="3782407806" label="T_FloorTiles01_N" texturemode="5" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="-1.000000" srgb="2" file="RaninaBayTMV1_Assets/T_FloorTiles01_N.png">
+		<Hash value="e034cce3f7ba6a06291ac0bf955f9f0c"/>
+	</Texture>
+	<Texture name="1113784622" label="T_FloorTiles01_BC" texturemode="5" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="-1.000000" srgb="1" file="RaninaBayTMV1_Assets/T_FloorTiles01_BC.png">
+		<Hash value="114fdfc79fa022d4d136fd2b0819aaac"/>
+	</Texture>
+	<Texture name="1287120109" label="T_FloorTiles01_R" texturemode="5" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="-1.000000" srgb="2" file="RaninaBayTMV1_Assets/T_FloorTiles01_R.png">
+		<Hash value="384da836b6c821d99a39c94a139d0199"/>
+	</Texture>
+	<MaterialInstance name="8EC9ABD0447337F954CA4FA490353D7A"  label="Floor_Tiles" Type="4" Quality="0" PathName="/Game/Twinmotion/Materials/StdOpaque/M_TMStdOpaque.M_TMStdOpaque" >
+		<KeyValueProperty name="LuminanceFilter" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=0.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapGamma" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapGain" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapLift" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.715693,G=0.644480,B=0.577580,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapGamma" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapGain" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapLift" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="UVOffsetAndScale" type="Color" val="(R=0.500000,G=0.500000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="UVSpeed" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=0.000000)"/>
+		<KeyValueProperty name="UseClearCoat" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ClearCoatAmount" type="Float" val="0.750000"/>
+		<KeyValueProperty name="ClearCoatRoughness" type="Float" val="0.050000"/>
+		<KeyValueProperty name="NormalMapAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="InvertNormal" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LuminanceAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ColorTemperature" type="Float" val="6500.000000"/>
+		<KeyValueProperty name="LuminanceFilterMapSaturation" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseLuminanceFilterMapHDR" type="Float" val="0.000000"/>
+		<KeyValueProperty name="UseMask" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseOpacityMap" type="Float" val="0.000000"/>
+		<KeyValueProperty name="InvertMask" type="Float" val="0.000000"/>
+		<KeyValueProperty name="InvertOpacity" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ColorMapSaturation" type="Float" val="1.000000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="InvertMetallic" type="Float" val="0.000000"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="InvertRoughness" type="Float" val="0.000000"/>
+		<KeyValueProperty name="WeatherToggle" type="Float" val="1.000000"/>
+		<KeyValueProperty name="PuddlesToggle" type="Float" val="1.000000"/>
+		<KeyValueProperty name="AmbientOcclusionAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="SpecularAmount" type="Float" val="0.500000"/>
+		<KeyValueProperty name="TimeOffset" type="Float" val="0.000000"/>
+		<KeyValueProperty name="PS_DistanceGrungeInverseAmount" type="Float" val="0.900000"/>
+		<KeyValueProperty name="PS_DayNightCycleToggle" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LightDuskToDawnThreshold" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LightDuskToDawnRandom" type="Float" val="0.000000"/>
+		<KeyValueProperty name="UVRotation" type="Float" val="0.000000"/>
+		<KeyValueProperty name="TPBlendWidth" type="Float" val="0.250000"/>
+		<KeyValueProperty name="RandomizeUVs" type="Float" val="0.000000"/>
+		<KeyValueProperty name="TPTopFactor" type="Float" val="0.630000"/>
+		<KeyValueProperty name="DecoupleReliefUVs" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ReliefTilingX" type="Float" val="1.000000"/>
+		<KeyValueProperty name="ReliefTilingY" type="Float" val="1.000000"/>
+		<KeyValueProperty name="TPLocalSpace" type="Float" val="0.000000"/>
+		<KeyValueProperty name="HeightMapAmount" type="Float" val="0.050000"/>
+		<KeyValueProperty name="HeightMapRefPlane" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseTriPlanarUVs" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="3782407806"/>
+		<KeyValueProperty name="ColorMap" type="Texture" val="1113784622"/>
+		<KeyValueProperty name="RoughnessMap" type="Texture" val="1287120109"/>
+	</MaterialInstance>
+	<MaterialInstance name="AF41C3174C50C20805332BBF062CD6C7"  label="Plain_White" Type="4" Quality="0" PathName="/Game/Twinmotion/Materials/StdOpaque/M_TMStdOpaque.M_TMStdOpaque" >
+		<KeyValueProperty name="LuminanceFilter" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=0.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapGamma" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapGain" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="LuminanceFilterMapLift" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.603827,G=0.603827,B=0.603827,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapGamma" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapGain" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="ColorMapLift" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="UVOffsetAndScale" type="Color" val="(R=0.000000,G=0.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="UVSpeed" type="Color" val="(R=0.000000,G=0.000000,B=0.000000,A=0.000000)"/>
+		<KeyValueProperty name="UseClearCoat" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ClearCoatAmount" type="Float" val="0.750000"/>
+		<KeyValueProperty name="ClearCoatRoughness" type="Float" val="0.050000"/>
+		<KeyValueProperty name="NormalMapAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="InvertNormal" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LuminanceAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ColorTemperature" type="Float" val="6500.000000"/>
+		<KeyValueProperty name="LuminanceFilterMapSaturation" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseLuminanceFilterMapHDR" type="Float" val="0.000000"/>
+		<KeyValueProperty name="UseMask" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseOpacityMap" type="Float" val="1.000000"/>
+		<KeyValueProperty name="InvertMask" type="Float" val="0.000000"/>
+		<KeyValueProperty name="InvertOpacity" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ColorMapSaturation" type="Float" val="1.000000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="InvertMetallic" type="Float" val="0.000000"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="2.000000"/>
+		<KeyValueProperty name="InvertRoughness" type="Float" val="0.000000"/>
+		<KeyValueProperty name="WeatherToggle" type="Float" val="1.000000"/>
+		<KeyValueProperty name="PuddlesToggle" type="Float" val="1.000000"/>
+		<KeyValueProperty name="AmbientOcclusionAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="SpecularAmount" type="Float" val="0.500000"/>
+		<KeyValueProperty name="TimeOffset" type="Float" val="0.000000"/>
+		<KeyValueProperty name="PS_DistanceGrungeInverseAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="PS_DayNightCycleToggle" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LightDuskToDawnThreshold" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LightDuskToDawnRandom" type="Float" val="0.000000"/>
+		<KeyValueProperty name="UVRotation" type="Float" val="0.000000"/>
+		<KeyValueProperty name="TPBlendWidth" type="Float" val="0.250000"/>
+		<KeyValueProperty name="RandomizeUVs" type="Float" val="0.000000"/>
+		<KeyValueProperty name="TPTopFactor" type="Float" val="0.630000"/>
+		<KeyValueProperty name="DecoupleReliefUVs" type="Float" val="0.000000"/>
+		<KeyValueProperty name="ReliefTilingX" type="Float" val="1.000000"/>
+		<KeyValueProperty name="ReliefTilingY" type="Float" val="1.000000"/>
+		<KeyValueProperty name="TPLocalSpace" type="Float" val="0.000000"/>
+		<KeyValueProperty name="HeightMapAmount" type="Float" val="0.050000"/>
+		<KeyValueProperty name="HeightMapRefPlane" type="Float" val="1.000000"/>
+		<KeyValueProperty name="UseTriPlanarUVs" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>
