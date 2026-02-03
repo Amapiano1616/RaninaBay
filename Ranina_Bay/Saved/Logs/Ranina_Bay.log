@@ -2565,3 +2565,269 @@ FPackageName: Skipped package /Engine/EngineSky/VolumetricClouds/m_SimpleVolumet
 [2026.02.03-20.07.28:889][934]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.02.03-20.07.28:889][934]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.03-20.07.28:890][934]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2026.02.03-20.08.58:242][255]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6486.391113
+[2026.02.03-20.08.59:240][258]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.08.59:240][258]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6487.056152, Update Interval: 344.182861
+[2026.02.03-20.15.23:988][412]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6872.140137
+[2026.02.03-20.15.24:989][415]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.15.24:989][416]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6872.806641, Update Interval: 305.295563
+[2026.02.03-20.19.22:348][127]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: ab4...de4
+[2026.02.03-20.19.22:348][127]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.83 RefreshExpires: 1.554e+07
+[2026.02.03-20.19.23:350][130]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: ab4...de4 Access[Expires: 2026.02.03-22.19.22 Remaining: 7200.90] Refresh[Expires: 2026-08-02T18:21:01.834Z Remaining: 15544899.83] State: Valid
+[2026.02.03-20.21.23:368][490]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7231.537109
+[2026.02.03-20.21.24:367][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.21.24:367][493]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7232.202637, Update Interval: 321.182281
+[2026.02.03-20.22.34:202][703]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.03-20.27.29:758][589]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7597.936035
+[2026.02.03-20.27.30:755][592]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.27.30:755][592]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7598.602539, Update Interval: 302.869354
+[2026.02.03-20.33.22:141][646]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7950.327637
+[2026.02.03-20.33.23:141][649]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.33.23:141][649]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7950.994629, Update Interval: 352.025513
+[2026.02.03-20.40.04:876][854]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8353.044922
+[2026.02.03-20.40.05:877][857]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.40.05:877][858]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8353.712891, Update Interval: 344.708405
+[2026.02.03-20.46.29:607][  8]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8737.739258
+[2026.02.03-20.46.30:605][ 11]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-20.46.30:605][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8738.403320, Update Interval: 352.900787
+[2026.02.03-20.48.17:233][565]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.48.17:262][565]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Maya_Models/ChurchV2/ChurchV2V2Export1.fbx]
+[2026.02.03-20.48.19:061][565]LogSlate: Window 'Import Content' being destroyed
+[2026.02.03-20.48.19:083][565]LogInterchangeEngine: [Pending] Importing
+[2026.02.03-20.48.19:101][565]LogAutomationController: Ignoring very large delta of 4.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.03-20.48.19:149][567]LogStreaming: Display: FlushAsyncLoading(533): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.48.19:186][569]LogStaticMesh: Display: Building static mesh ChurchV2V2Export1 (Required Memory Estimate: 0.626229 MB)...
+[2026.02.03-20.48.19:187][569]LogStaticMesh: Adjacency [0.00s], tris: 404, UVs 1
+[2026.02.03-20.48.19:188][569]LogStaticMesh: Clustering [0.00s]. Ratio: 1.500000
+[2026.02.03-20.48.19:189][569]LogStaticMesh: Leaves [0.00s]
+[2026.02.03-20.48.19:197][569]LogStaticMesh: Reduce [0.01s]
+[2026.02.03-20.48.19:202][569]LogStaticMesh: Fallback [0.00s], num tris: 256
+[2026.02.03-20.48.19:202][569]LogStaticMesh: ConstrainClusters:
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Input: 9 Clusters, 782 Triangles and 582 Vertices
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Output without splits: 9 Clusters, 782 Triangles and 584 Vertices
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Output with splits: 9 Clusters, 782 Triangles and 584 Vertices
+[2026.02.03-20.48.19:202][569]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 9, Slow Path Clusters: 0, 1 Material: 9, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.02.03-20.48.19:202][569]LogStaticMesh: WritePages:
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Root: GPU size: 9416 bytes. 1 Pages. 9416.000 bytes per page (28.735% utilization).
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Streaming: 0 bytes.
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Page data disk size: 7244 bytes. Fixup data size: 56 bytes.
+[2026.02.03-20.48.19:202][569]LogStaticMesh:   Total GPU size: 9416 bytes, Total disk size: 7300 bytes.
+[2026.02.03-20.48.19:202][569]LogStaticMesh: Encode [0.00s]
+[2026.02.03-20.48.19:202][569]LogStaticMesh: Nanite build [0.02s]
+
+[2026.02.03-20.48.19:204][569]LogStaticMesh: Built static mesh [0.02s] /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.48.19:206][569]LogStaticMesh: Warning: ChurchV2V2Export1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2026.02.03-20.48.19:206][569]LogStaticMesh: Warning: ChurchV2V2Export1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.02.03-20.48.19:592][571]LogInterchangeEngine: Display: Interchange import completed [C:/Users/amais/Docum...Maya_Models/ChurchV2/ChurchV2V2Export1.fbx]
+[2026.02.03-20.48.19:592][571]Interchange: Warning: [C:/Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Maya_Models/ChurchV2/ChurchV2V2Export1.fbx : 'ChurchV2V2Export1', StaticMesh] No smoothing group information was found for this mesh 'Mesh' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2026.02.03-20.48.19:604][571]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.02.03-20.48.19:604][571]LogInterchangeEngine: [Success] Import Done
+[2026.02.03-20.48.42:447][307]Cmd: DELETE
+[2026.02.03-20.48.42:447][307]Cmd: ACTOR DELETE
+[2026.02.03-20.48.42:515][307]LogStreaming: Display: FlushAsyncLoading(534): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.48.42:521][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.03-20.48.42:532][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.02.03-20.48.42:534][307]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2026.02.03-20.48.48:552][727]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.48.48:552][727]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.48.48:552][727]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2026.02.03-20.48.49:335][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.02.03-20.48.49:336][785]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.02.03-20.48.49:347][785]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.48.49:347][785]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.48.49:348][785]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_C87F545AF7C092BB02_1579828664
+[2026.02.03-20.48.59:117][523]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.48.59:122][523]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.48.59:122][523]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.03-20.48.59:124][523]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.401 ms (total: 56.126 ms)
+[2026.02.03-20.48.59:124][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.48.59:124][523]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.03-20.48.59:322][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197410s)
+[2026.02.03-20.48.59:322][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.197721s)
+[2026.02.03-20.48.59:335][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.02.03-20.48.59:335][523]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.03-20.48.59:337][523]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.48.59:337][523]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.48.59:337][523]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.48.59:337][523]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.48.59:376][523]LogWorldPartition: Display: WorldPartition initialize took 39.105 ms (total: 3.89 sec)
+[2026.02.03-20.48.59:376][523]LogPlayLevel: PIE: World Init took: (0.040614s)
+[2026.02.03-20.48.59:377][523]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.48.59:377][523]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.48.59:377][523]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.48.59:377][523]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.48.59:377][523]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.48.59:377][523]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.48.59:379][523]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.48.59:401][523]LogAudioMixer: Display: Using Audio Hardware Device XB283K KV (NVIDIA High Definition Audio)
+[2026.02.03-20.48.59:401][523]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.48.59:401][523]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.48.59:401][523]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.48.59:401][523]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.02.03-20.48.59:401][523]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.02.03-20.48.59:403][523]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.02.03-20.48.59:403][523]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.02.03-20.48.59:403][523]LogInit: FAudioDevice initialized with ID 3.
+[2026.02.03-20.48.59:403][523]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2026.02.03-20.48.59:404][523]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.02.03-20.48.59:406][523]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.03-20.48.59:490][523]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.03-15.48.59
+[2026.02.03-20.48.59:491][523]LogWorld: Bringing up level for play took: 0.084548
+[2026.02.03-20.48.59:493][523]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2026.02.03-20.48.59:495][523]PIE: Server logged in
+[2026.02.03-20.48.59:496][523]PIE: Play in editor total start time 0.374 seconds.
+[2026.02.03-20.49.32:279][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.49.32:279][335]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.03-20.49.32:279][335]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.49.32:281][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.49.32:281][335]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.03-20.49.32:284][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.49.32:288][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.49.32:298][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.49.32:300][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.02.03-20.49.32:300][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.02.03-20.49.32:302][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.02.03-20.49.32:310][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.02.03-20.49.32:379][336]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.02.03-20.49.49:703][694]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1
+[2026.02.03-20.49.49:751][694]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.03-20.49.49:755][694]LogStreaming: Display: FlushAsyncLoading(535): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: ================================================
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Total job queries 2,755, among them cache hits 1,473 (53.47%), DDC hits 1,002 (36.37%), Duplicates 20 (0.73%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Tracking 1,262 distinct input hashes that result in 947 distinct outputs (75.04%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: RAM used: 587.67 KiB of 3.20 GiB budget. Usage: 0.02%
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Shaders Compiled: 260
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Jobs assigned 260, completed 260 (100%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Average time worker was idle: 257.30 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Time job spent in pending queue: average 0.43 s, longest 2.67 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Job execution time: average 1.13 s, max 2.70 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Job life time (pending + execution): average 1.56 s, max 3.20
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Shader code size: average 8.172 KiB, min 1.395 KiB, max 26.867 KiB
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 22.33 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.15%
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Jobs were issued in 196 batches (only local compilation was used), average 1.33 jobs/batch
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Average processing rate: 11.65 jobs/sec
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Total thread time: 116.542 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Total thread preprocess time: 28.625 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Percentage time preprocessing: 24.56%
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Effective parallelization: 5.22 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    7 times, average 1.30 sec, max 1.74 sec, min 0.81 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 1.29 sec, max 2.10 sec, min 0.28 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    7 times, average 1.00 sec, max 1.39 sec, min 0.60 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 0.94 sec, max 1.23 sec, min 0.59 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.22% of total time (compiled   26 times, average 0.77 sec, max 1.03 sec, min 0.47 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.63% of total time (compiled   27 times, average 0.55 sec, max 1.90 sec, min 0.25 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 7.79% of total time (compiled    7 times, average 1.30 sec, max 1.74 sec, min 0.81 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.74% of total time (compiled    7 times, average 1.29 sec, max 2.10 sec, min 0.28 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.97% of total time (compiled   30 times, average 0.27 sec, max 0.64 sec, min 0.16 sec)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: === Material stats ===
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Materials Translated:    171
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Material Translation Only: 0.03 s (35%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.02.03-20.49.58:286][131]LogShaderCompilers: Display: ================================================
+[2026.02.03-20.50.31:631][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.50.31:698][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/ChurchV2V2Export1] ([1] browsable assets)...
+[2026.02.03-20.50.31:706][834]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imports/Import/Import/ChurchV2V2Export1.ChurchV2V2Export1]
+[2026.02.03-20.50.31:706][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/ChurchV2V2Export1]
+[2026.02.03-20.50.31:708][834]LogSavePackage: Moving output files for package: /Game/Imports/Import/Import/ChurchV2V2Export1
+[2026.02.03-20.50.31:708][834]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/ChurchV2V2Export145F9B7A74AD2ED97B071D784DD8D8088.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Content/Imports/Import/Import/ChurchV2V2Export1.uasset'
+[2026.02.03-20.50.31:718][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.811 ms (total: 968.800 ms)
+[2026.02.03-20.50.31:737][834]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.50.31:737][834]LogContentValidation: Enabled validators:
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.50.31:737][834]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.50.31:737][834]AssetCheck: /Game/Imports/Import/Import/ChurchV2V2Export1 Validating asset
+[2026.02.03-20.50.34:557][ 18]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.50.34:561][ 18]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.50.34:561][ 18]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.03-20.50.34:564][ 18]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.488 ms (total: 58.614 ms)
+[2026.02.03-20.50.34:564][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.50.34:564][ 18]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.03-20.50.34:757][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.193148s)
+[2026.02.03-20.50.34:757][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.193177s)
+[2026.02.03-20.50.34:776][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.02.03-20.50.34:777][ 18]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.03-20.50.34:778][ 18]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.50.34:778][ 18]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.50.34:778][ 18]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.50.34:778][ 18]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.50.34:817][ 18]LogWorldPartition: Display: WorldPartition initialize took 39.106 ms (total: 3.93 sec)
+[2026.02.03-20.50.34:817][ 18]LogPlayLevel: PIE: World Init took: (0.040541s)
+[2026.02.03-20.50.34:817][ 18]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.50.34:817][ 18]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.50.34:817][ 18]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.50.34:817][ 18]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.50.34:817][ 18]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.50.34:818][ 18]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.50.34:819][ 18]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: Display: Using Audio Hardware Device XB283K KV (NVIDIA High Definition Audio)
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.02.03-20.50.34:839][ 18]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.02.03-20.50.34:843][ 18]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.02.03-20.50.34:843][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.02.03-20.50.34:843][ 18]LogInit: FAudioDevice initialized with ID 4.
+[2026.02.03-20.50.34:843][ 18]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2026.02.03-20.50.34:843][ 18]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.02.03-20.50.34:845][ 18]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.03-20.50.34:931][ 18]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.03-15.50.34
+[2026.02.03-20.50.34:931][ 18]LogWorld: Bringing up level for play took: 0.085792
+[2026.02.03-20.50.34:933][ 18]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.02.03-20.50.34:935][ 18]PIE: Server logged in
+[2026.02.03-20.50.34:936][ 18]PIE: Play in editor total start time 0.375 seconds.
+[2026.02.03-20.50.58:700][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.50.58:700][346]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.03-20.50.58:700][346]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.50.58:702][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.50.58:702][346]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.03-20.50.58:704][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.50.58:706][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.50.58:717][346]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.03-20.50.58:717][346]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.02.03-20.50.58:717][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.02.03-20.50.58:718][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.02.03-20.50.58:724][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.50.58:729][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.02.03-20.50.58:797][347]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.02.03-20.50.59:629][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.50.59:688][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.02.03-20.50.59:699][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.02.03-20.50.59:707][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.02.03-20.50.59:710][408]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FM/L9IQ2IG7ZW0UNTVQUQDXWC
+[2026.02.03-20.50.59:710][408]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/L9IQ2IG7ZW0UNTVQUQDXWCC2584D8B4DED5D3452AF7BBF5E2FEEC2.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FM/L9IQ2IG7ZW0UNTVQUQDXWC.uasset'
+[2026.02.03-20.50.59:718][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.341 ms (total: 1.05 sec)
+[2026.02.03-20.50.59:743][408]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.50.59:743][408]LogContentValidation: Enabled validators:
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.50.59:743][408]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.50.59:743][408]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
