@@ -4353,3 +4353,137 @@ FPackageName: Skipped package /Engine/EngineSky/VolumetricClouds/m_SimpleVolumet
 [2026.02.10-13.56.18:755][ 34]LogStaticMesh: Warning: Invalid material [MI_TMStdTranslucentFrostedGlass] used on Nanite static mesh [pasted__Lamp]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
 [2026.02.10-13.56.18:755][ 34]LogStaticMesh: Warning: Invalid material [MI_TMStdTranslucentFrostedGlass] used on Nanite static mesh [pasted__Lamp]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
 [2026.02.10-13.56.18:755][ 34]LogStaticMesh: Warning: Invalid material [MI_TMStdTranslucentFrostedGlass] used on Nanite static mesh [pasted__Lamp]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.02.10-13.56.44:379][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.02.10-13.56.44:382][234]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.012
+[2026.02.10-13.56.44:382][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/pasted__Lamp] ([1] browsable assets)...
+[2026.02.10-13.56.44:421][234]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imports/Import/Import/pasted__Lamp.pasted__Lamp]
+[2026.02.10-13.56.44:421][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/pasted__Lamp]
+[2026.02.10-13.56.44:424][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/pasted__Lamp_Auto4
+[2026.02.10-13.56.44:424][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/pasted__Lamp_Auto45F3517244D83CFB4C02A759D1213FA19.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/pasted__Lamp_Auto4.uasset'
+[2026.02.10-13.56.44:430][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardHair1SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:450][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardHair1SG.aiStandardHair1SG]
+[2026.02.10-13.56.44:450][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardHair1SG]
+[2026.02.10-13.56.44:452][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardHair1SG_Auto4
+[2026.02.10-13.56.44:452][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardHair1SG_Auto43EBDF2BE49375CEA42AF52846A83EB40.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardHair1SG_Auto4.uasset'
+[2026.02.10-13.56.44:452][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface1SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:467][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface1SG.aiStandardSurface1SG]
+[2026.02.10-13.56.44:467][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface1SG]
+[2026.02.10-13.56.44:469][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface1SG_Auto4
+[2026.02.10-13.56.44:469][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface1SG_Auto40181EA93488D6E6939A50094B463461D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface1SG_Auto4.uasset'
+[2026.02.10-13.56.44:469][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface2SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:485][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface2SG.aiStandardSurface2SG]
+[2026.02.10-13.56.44:485][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface2SG]
+[2026.02.10-13.56.44:487][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface2SG_Auto4
+[2026.02.10-13.56.44:487][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface2SG_Auto44F4E83AA4029A5064B3A5CBD1F54629F.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface2SG_Auto4.uasset'
+[2026.02.10-13.56.44:488][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface3SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:505][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface3SG.aiStandardSurface3SG]
+[2026.02.10-13.56.44:505][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface3SG]
+[2026.02.10-13.56.44:505][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface3SG_Auto4
+[2026.02.10-13.56.44:506][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface3SG_Auto4F3B0278C42C35DB7BBFAA2818816CBAD.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface3SG_Auto4.uasset'
+[2026.02.10-13.56.44:506][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface4SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:522][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface4SG.aiStandardSurface4SG]
+[2026.02.10-13.56.44:522][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface4SG]
+[2026.02.10-13.56.44:524][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface4SG_Auto4
+[2026.02.10-13.56.44:524][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface4SG_Auto4906439F04025047AE291B5AB5F43AC80.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface4SG_Auto4.uasset'
+[2026.02.10-13.56.44:525][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface5SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:542][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface5SG.aiStandardSurface5SG]
+[2026.02.10-13.56.44:542][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface5SG]
+[2026.02.10-13.56.44:543][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface5SG_Auto4
+[2026.02.10-13.56.44:543][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface5SG_Auto4CEAE038245D62781D135B98EEED0C34D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface5SG_Auto4.uasset'
+[2026.02.10-13.56.44:544][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface6SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:560][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface6SG.aiStandardSurface6SG]
+[2026.02.10-13.56.44:560][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface6SG]
+[2026.02.10-13.56.44:562][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface6SG_Auto4
+[2026.02.10-13.56.44:562][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface6SG_Auto465E48673403DA4F5B3407DAC512EAEF4.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface6SG_Auto4.uasset'
+[2026.02.10-13.56.44:562][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface7SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:579][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface7SG.aiStandardSurface7SG]
+[2026.02.10-13.56.44:579][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface7SG]
+[2026.02.10-13.56.44:580][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface7SG_Auto4
+[2026.02.10-13.56.44:581][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface7SG_Auto4C01EA1B5412A9BCF2EA4BAA926579063.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface7SG_Auto4.uasset'
+[2026.02.10-13.56.44:581][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/aiStandardSurface8SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:597][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/aiStandardSurface8SG.aiStandardSurface8SG]
+[2026.02.10-13.56.44:597][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/aiStandardSurface8SG]
+[2026.02.10-13.56.44:599][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/aiStandardSurface8SG_Auto4
+[2026.02.10-13.56.44:599][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/aiStandardSurface8SG_Auto413A5E039407903B0B1EE9C9D3D95364F.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/aiStandardSurface8SG_Auto4.uasset'
+[2026.02.10-13.56.44:599][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/initialShadingGroup] ([1] browsable assets)...
+[2026.02.10-13.56.44:605][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/initialShadingGroup.initialShadingGroup]
+[2026.02.10-13.56.44:605][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/initialShadingGroup]
+[2026.02.10-13.56.44:606][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/initialShadingGroup_Auto4
+[2026.02.10-13.56.44:606][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/initialShadingGroup_Auto4D7BC60CE4AC482F052B5B5823708CB92.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/initialShadingGroup_Auto4.uasset'
+[2026.02.10-13.56.44:606][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/pasted__aiStandardSurface2SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:611][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/pasted__aiStandardSurface2SG.pasted__aiStandardSurface2SG]
+[2026.02.10-13.56.44:611][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/pasted__aiStandardSurface2SG]
+[2026.02.10-13.56.44:613][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface2SG_Auto4
+[2026.02.10-13.56.44:613][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/pasted__aiStandardSurface2SG_AutD63E36EB44DB7C53611296A09C323BF7.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface2SG_Auto4.uasset'
+[2026.02.10-13.56.44:614][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/pasted__aiStandardSurface3SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:618][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/pasted__aiStandardSurface3SG.pasted__aiStandardSurface3SG]
+[2026.02.10-13.56.44:618][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/pasted__aiStandardSurface3SG]
+[2026.02.10-13.56.44:620][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface3SG_Auto4
+[2026.02.10-13.56.44:620][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/pasted__aiStandardSurface3SG_AutEF869D9746088550E5AA478C3770B61D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface3SG_Auto4.uasset'
+[2026.02.10-13.56.44:620][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/pasted__aiStandardSurface4SG] ([1] browsable assets)...
+[2026.02.10-13.56.44:626][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imports/Import/Import/pasted__aiStandardSurface4SG.pasted__aiStandardSurface4SG]
+[2026.02.10-13.56.44:626][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/pasted__aiStandardSurface4SG]
+[2026.02.10-13.56.44:627][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface4SG_Auto4
+[2026.02.10-13.56.44:627][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/pasted__aiStandardSurface4SG_Aut59D2EC8248328C8060A79394EDE8FF1D.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/pasted__aiStandardSurface4SG_Auto4.uasset'
+[2026.02.10-13.56.44:628][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imports/Import/Import/pasted__LampBase] ([1] browsable assets)...
+[2026.02.10-13.56.44:633][234]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imports/Import/Import/pasted__LampBase.pasted__LampBase]
+[2026.02.10-13.56.44:633][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Import/Import/pasted__LampBase]
+[2026.02.10-13.56.44:635][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Import/Import/pasted__LampBase_Auto4
+[2026.02.10-13.56.44:635][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/pasted__LampBase_Auto4BDE7DC8E4893222AEC330FB1F37D2D99.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Imports/Import/Import/pasted__LampBase_Auto4.uasset'
+[2026.02.10-13.56.44:636][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Twinmotion/Materials/StdTranslucent/M_TMStdTranslucentFrostedGlass] ([1] browsable assets)...
+[2026.02.10-13.56.44:641][234]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Twinmotion/Materials/StdTranslucent/M_TMStdTranslucentFrostedGlass.M_TMStdTranslucentFrostedGlass]
+[2026.02.10-13.56.44:641][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Twinmotion/Materials/StdTranslucent/M_TMStdTranslucentFrostedGlass]
+[2026.02.10-13.56.44:643][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Twinmotion/Materials/StdTranslucent/M_TMStdTranslucentFrostedGlass_Auto4
+[2026.02.10-13.56.44:643][234]LogSavePackage: Moving '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/M_TMStdTranslucentFrostedGlass_A430521A84CAD35ED797830ADD87AE699.tmp' to '../../../../../../Users/amais/Documents/GitHub/RaninaBay/RaninaBay/Ranina_Bay/Saved/Autosaves/Game/Twinmotion/Materials/StdTranslucent/M_TMStdTranslucentFrostedGlass_Auto4.uasset'
+[2026.02.10-13.56.44:644][234]LogFileHelpers: Auto-saving content packages took 0.263
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: ================================================
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Total job queries 557, among them cache hits 204 (36.62%), DDC hits 169 (30.34%), Duplicates 34 (6.10%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Tracking 319 distinct input hashes that result in 233 distinct outputs (73.04%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: RAM used: 148.27 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Shaders Compiled: 150
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Jobs assigned 150, completed 150 (100%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Average time worker was idle: 115.83 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Time job spent in pending queue: average 0.46 s, longest 2.84 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Job execution time: average 1.44 s, max 4.15 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Job life time (pending + execution): average 1.91 s, max 4.19
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Shader code size: average 12.943 KiB, min 4.133 KiB, max 36.051 KiB
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.81 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Jobs were issued in 126 batches (only local compilation was used), average 1.19 jobs/batch
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Average processing rate: 8.42 jobs/sec
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Total thread time: 84.589 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Total thread preprocess time: 5.423 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Percentage time preprocessing: 6.41%
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Effective parallelization: 4.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    2 times, average 1.15 sec, max 1.21 sec, min 1.09 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    7 times, average 1.06 sec, max 1.20 sec, min 0.93 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    7 times, average 1.00 sec, max 1.18 sec, min 0.87 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 0.92 sec, max 1.04 sec, min 0.83 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 0.90 sec, max 0.98 sec, min 0.73 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 11.48% of total time (compiled   14 times, average 0.69 sec, max 0.89 sec, min 0.54 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 11.17% of total time (compiled   14 times, average 0.67 sec, max 0.95 sec, min 0.47 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.45% of total time (compiled   10 times, average 0.88 sec, max 1.37 sec, min 0.60 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 8.77% of total time (compiled    7 times, average 1.06 sec, max 1.20 sec, min 0.93 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 8.26% of total time (compiled    7 times, average 1.00 sec, max 1.18 sec, min 0.87 sec)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: === Material stats ===
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Materials Translated:    194
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: Material Cache Hits: 31 (16%)
+[2026.02.10-13.57.02:338][288]LogShaderCompilers: Display: ================================================
+[2026.02.10-13.59.13:684][682]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3198.962402
+[2026.02.10-13.59.14:683][685]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.10-13.59.14:683][685]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3199.629150, Update Interval: 347.044891
+[2026.02.10-14.05.44:410][854]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3589.679688
+[2026.02.10-14.05.45:408][857]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.10-14.05.45:408][858]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3590.346191, Update Interval: 301.704773
+[2026.02.10-14.07.44:371][214]LogDerivedDataCache: C:/Users/amais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.10-14.11.43:473][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3948.739990
+[2026.02.10-14.11.44:472][934]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.10-14.11.44:472][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3949.404541, Update Interval: 304.347046
